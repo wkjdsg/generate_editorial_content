@@ -1,0 +1,29 @@
+[
+    {
+        "学校": "UC_Berkeley",
+        "学年": "Spring 2019",
+        "学院": "Anthropology",
+        "课程名": "Anthro 2AC",
+        "教授": "Lightfoot",
+        "测试样式": "v0",
+        "syllabus": "test_syllabus_pdf\\FRE GY6273ValuationTheorySpring2025Syllabus.pdf"
+    },
+    {
+        "学校": "Stanford",
+        "学年": "Fall 2019",
+        "学院": "Computer Science",
+        "课程名": "CS 229",
+        "教授": "Andrew Ng",
+        "测试样式": "v0",
+        "syllabus": "test_syllabus_pdf\\syllabus_laarits_foundations_0.pdf"
+    },
+    {
+        "学校": "MIT",
+        "学年": "Spring 2020",
+        "学院": "Physics",
+        "课程名": "Physics 8.01",
+        "教授": "Walter Lewin",
+        "测试样式": "v0",
+        "syllabus": "test_syllabus_pdf\\Syllabus-What is History-Fall 2023-Version 20230907.pdf"
+    }
+] 
