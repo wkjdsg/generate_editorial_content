@@ -1,0 +1,49 @@
+Keyword,Intent,Volume,Trend,Keyword Difficulty,CPC (USD),SERP Features
+Python Tutor,Navigational,14800,"0.29,0.54,0.81,0.66,0.66,0.66,0.29,0.36,0.29,1.00,0.54,0.66",64,2.42,"Sitelinks, Reviews, People also ask, Related searches"
+Chemistry  Tutor,"Informational, Transactional",1900,"0.44,0.66,0.66,0.52,0.52,0.44,0.36,0.36,0.44,1.00,0.80,0.52",40,12.85,"Sitelinks, Reviews, Video carousel, People also ask, Local pack, Related searches"
+Algebra Tutor,"Informational, Transactional",880,"0.67,0.76,0.67,0.56,0.44,0.56,0.44,0.44,0.76,1.00,0.76,0.67",36,12.05,"Reviews, Video, Discussions and forums, Related searches"
+Computer Science Tutor,"Informational, Transactional",720,"0.76,1.00,0.76,1.00,1.00,0.30,0.24,0.30,0.30,0.45,0.67,0.45",28,9.78,"Reviews, Image pack, Video carousel, People also ask, Related searches"
+Java Tutor,"Informational, Transactional",590,"0.77,0.56,1.00,0.77,0.77,0.20,0.30,0.12,0.37,0.30,0.37,0.44",38,2.92,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
+Economics Tutor,"Informational, Transactional",390,"0.54,0.81,1.00,0.66,0.44,0.54,0.35,0.35,0.35,1.00,1.00,0.54",21,13.5,"Reviews, People also ask, Local pack, Related searches"
+Marketing Tutor,Commercial,320,"1.00,0.15,0.15,0.13,0.15,0.15,0.21,0.38,0.21,0.15,0.21,0.21",19,5.6,"Reviews, Image pack, Video, Video carousel, Related searches"
+Real Estate Tutor,Commercial,320,"0.13,0.20,0.13,0.10,0.08,0.10,0.10,1.00,0.30,0.06,0.13,0.10",17,3.72,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Local pack, Related searches"
+JavaScript Tutor,"Informational, Transactional",320,"0.32,0.17,1.00,0.32,0.07,0.47,0.07,0.08,0.07,0.26,0.59,0.07",32,1.96,"Sitelinks, Reviews, Image pack, Video, Video carousel, People also ask, Related searches"
+SQL Tutor,Transactional,320,"0.36,0.36,0.44,0.36,0.44,0.44,0.15,1.00,0.66,0.23,0.54,0.44",13,2.49,"Sitelinks, Reviews, Video, Related searches"
+Finance Tutor,"Informational, Transactional",260,"1.00,1.00,0.81,0.43,0.43,0.35,0.29,0.29,0.35,0.54,0.54,0.35",23,10.87,"Reviews, Image pack, People also ask, Related searches"
+Special Education Tutor,"Informational, Transactional",210,"1.00,1.00,0.65,0.80,0.42,1.00,0.42,0.80,0.42,0.65,0.80,0.65",34,4.26,"Sitelinks, Reviews, Video, Knowledge panel, Related searches"
+Programming Tutor,Informational,210,"0.81,1.00,0.53,0.43,0.36,0.67,0.67,0.36,0.22,0.17,0.36,0.17",28,6.3,"Sitelinks, Reviews, Image pack, People also ask, Related searches, Things to know"
+C++ Tutor,"Informational, Transactional",210,"0.17,1.00,0.21,0.13,0.13,0.17,0.04,0.13,0.08,0.17,0.13,0.54",13,3.3,"Sitelinks, Reviews, Image pack, Video, Related searches"
+R Tutor,"Informational, Transactional",170,"0.09,1.00,0.43,0.27,0.43,0.66,0.23,0.66,0.43,0.82,0.52,0.23",18,2.88,"Sitelinks, Reviews, Image pack, Related searches"
+Biochemistry Tutor,Commercial,140,"0.65,1.00,0.65,0.53,0.35,0.42,0.26,0.53,0.26,0.65,0.53,0.42",19,12.32,"Reviews, Image pack, Video, People also ask, Related searches"
+Psychology Tutor,"Informational, Transactional",140,"0.80,1.00,0.65,0.80,0.42,0.34,0.42,0.42,0.42,0.80,0.53,0.65",12,6.67,"Reviews, Image pack, Video carousel, People also ask, Local pack, Related searches"
+Python Programming Tutor,"Informational, Transactional",140,"0.34,1.00,0.65,0.65,0.42,0.42,0.42,0.42,0.34,0.26,0.53,0.34",31,2.99,"Sitelinks, Reviews, Image pack, Video, Video carousel, People also ask, Related searches"
+Cybersecurity Tutor,Commercial,110,"0.65,1.00,0.34,0.26,0.26,0.26,0.26,0.42,0.26,0.42,0.53,0.42",8,9.02,"Reviews, Image pack, Video, People also ask, Related searches, Ads bottom"
+Data Science Tutor,"Informational, Transactional",110,"1.00,1.00,0.31,0.31,0.23,0.23,0.23,0.23,0.23,0.23,0.31,0.31",9,9.69,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
+Machine Learning Tutor,"Informational, Transactional",110,"0.43,1.00,0.43,0.29,0.14,0.14,0.14,0.14,0.14,0.57,0.43,0.14",6,12.34,"Sitelinks, Reviews, Image pack, Video, Related searches"
+Financial Accounting Tutor,"Informational, Transactional",90,"0.53,1.00,0.26,0.26,0.15,0.19,0.15,0.19,0.07,0.19,0.26,0.15",23,11.13,"Reviews, Image pack, People also ask, Related searches"
+Digital Marketing Tutor,Commercial,90,"0.06,0.21,0.12,0.15,0.21,0.21,0.28,1.00,0.53,0.15,0.21,0.12",10,3.9,"Reviews, People also ask, Discussions and forums, Related searches"
+Differential Equations Tutor,"Informational, Commercial",70,"0.65,1.00,0.19,0.11,0.15,0.15,0.19,0.15,0.15,0.26,0.15,0.15",11,14.14,"Sitelinks, Reviews, Image pack, Video, Video carousel, People also ask, Related searches"
+Public Speaking Tutor,Transactional,70,"0.23,1.00,0.19,0.19,0.32,0.13,0.43,0.32,0.19,0.32,0.53,1.00",16,6,"Reviews, Image pack, Video, People also ask, Local pack, Related searches"
+AWS Tutor,Informational,70,"0.82,1.00,0.32,0.09,0.43,0.09,0.23,0.18,0.14,0.32,0.05,0.32",8,5.65,"Sitelinks, Reviews, Image pack, Video, Related searches"
+Data Analytics Tutor,"Informational, Commercial",70,"0.80,1.00,0.09,0.23,0.04,0.33,0.19,0.23,0.14,0.33,0.23,0.09",12,10.31,"Sitelinks, Reviews, People also ask, Related searches"
+Social Work Tutor,Informational,70,"0.65,1.00,0.19,0.07,0.15,0.15,0.11,0.15,0.07,0.11,0.07,0.07",1,8.44,"Reviews, Image pack, Video, People also ask, Related searches"
+Linguistics  Tutor,"Informational, Transactional",50,"0.29,1.00,0.64,0.11,0.11,0.11,0.11,0.11,0.11,0.17,0.11,0.64",6,10.33,"Sitelinks, Reviews, Image pack, Video, People also ask"
+Mechanical Engineering  Tutor,Commercial,40,"1.00,0.80,1.00,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20",15,8.24,"Reviews, Image pack, People also ask, Local pack, Related searches"
+Civil Engineering  Tutor,Commercial,30,"1.00,0.81,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18",8,10.17,"Reviews, Image pack, Video, People also ask, Related searches"
+Mathematics  Study,Informational,30,"0.42,0.00,0.00,0.03,0.00,0.00,0.03,0.00,1.00,0.00,0.00,0.00",60,1.61,"Sitelinks, Reviews, People also ask, Related searches, Things to know"
+Algorithms Tutor,"Informational, Transactional",30,"0.07,1.00,0.19,0.11,0.07,0.00,0.00,0.03,0.00,0.03,0.03,0.00",4,8.94,"Reviews, Image pack, Related searches"
+Artificial Intelligence Tutor,,30,"0.19,0.04,0.14,0.23,0.00,0.14,0.00,0.23,0.00,0.00,0.00,1.00",,1.71,
+Corporate Finance Tutor,Commercial,30,"1.00,0.17,0.17,0.17,0.17,0.17,0.17,0.17,0.17,0.17,0.17,0.17",7,10.55,"Reviews, Image pack, Video, People also ask, Related searches"
+Web Development Tutor,"Informational, Transactional",30,"0.17,0.17,0.17,0.17,0.17,0.17,0.17,0.17,1.00,0.17,0.17,0.17",20,8.67,"Reviews, Image pack, People also ask, Local pack, Related searches"
+Anthropology  Tutor,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,5.98,
+Chemical Engineering  Tutor,,20,"0.67,0.67,1.00,0.67,0.67,0.67,0.67,0.67,0.67,0.67,0.67,0.67",,7.04,
+Environmental Science  Tutor,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,6.84,
+Information Systems  Tutor,,20,"1.00,1.00,1.00,1.00,0.00,1.00,0.00,1.00,1.00,1.00,1.00,1.00",,0,
+International Business  Tutor,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00,1.00,0.00",,0,
+Managerial Accounting Tutor,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,17.81,
+Medical Terminology Tutor,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,4.73,
+Personal Finance Tutor,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,6.21,
+Psychology  Test Prep,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Nursing Tutor,,,,,,
+Literacy Tutor,,,,,,
+Homeschooling Tutor,,,,,,
