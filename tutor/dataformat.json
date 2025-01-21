@@ -1,0 +1,66 @@
+{
+    "title": "string",
+    "courseInfo": {
+      "courseBasicInfo": {
+        "courseTitle": "string",
+        "school": "string",
+        "courseCode": "string",
+        "credits": "string",
+        "semester": "string",
+        "department": "string"
+      },
+      "instructorInfo": {
+        "instructorName": "string",
+        "titlePosition": "string",
+        "officeAddress": "string",
+        "officeHours": "string",
+        "contactInfo": {
+          "email": "string",
+          "phone": "string"
+        }
+      },
+      "assessmentAndGradingPolicy": {
+        "weightings": {
+          "assignments": "string",
+          "quizzes": "string",
+          "midterm": "string",
+          "final": "string",
+          "projects": "string",
+          "attendance": "string"
+        },
+        "assessmentMethods": ["string(list of strings)"]
+      }
+    },
+    "productUsingInCourse": {
+      "title": "string,your free xxx ai ",
+      "description": "string,concisely describe how asksia as a xxx to help students study",
+      "coreFeatures": [
+        {
+          "name": "string(list of dictionaries,each dictionary has a name and description)",
+          "description": "string, combine your position and product features and try describe with detail scenario example, using markdown to visually pleasing and easy for read even with mass text. (bullet points,\n\n,etc.)"
+        }
+      ]
+    },
+    "productUsingInCoursereading": {
+      "title": "string,your free xxx ai ",
+      "description": "string,concisely describe how asksia as a xxx to help students study",
+      "coreFeatures": [
+        {
+          "name": "string(list of dictionaries,each dictionary has a name and description)",
+          "description": "string, combine your position and product features and try describe with detail scenario example, using markdown to visually pleasing and easy for read even with mass text. (bullet points,\n\n,etc.)"
+        }
+      ]
+    },
+    "productUsingInCoursetranscribe": {
+      "title": "string,your free xxx ai ",
+      "description": "string,concisely describe how asksia as a xxx to help students study",
+      "coreFeatures": "string, combine your position and product features and try describe with detail scenario example, using markdown to visually pleasing and easy for read even with mass text. (bullet points,\n\n,etc.)"
+    },
+    "FAQ": [
+      {
+        "question": "string. list of dictionaries,each dictionary has a question and answer",
+        "answer": "string"
+      }
+    ]
+  }
+  

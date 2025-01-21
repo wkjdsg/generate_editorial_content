@@ -10,11 +10,49 @@ import json
 class GeminiClient:
     """Gemini API 客户端封装类
     
-    处理与 Gemini API 相关的所有操作，包括初始化、配置和API调用。
+    该类提供了与 Google Gemini API 交互的完整功能封装，支持基础内容生成和多轮对话。
+    包含预设的模型配置，支持自定义配置，并提供完整的错误处理和日志记录。
     
     Attributes:
-        MODEL_CONFIGS: 预定义的模型配置字典
-        DEFAULT_MODEL: 默认使用的模型名称
+        MODEL_CONFIGS (Dict[str, Dict]): 预定义的模型配置字典，包含以下预设：
+            - standard_response_json: 标准JSON响应配置
+            - standard_response_text: 标准文本响应配置
+            - creative: 创意型响应配置
+            每个配置包含 temperature, top_p, top_k, max_output_tokens 等参数
+            
+        DEFAULT_MODEL (str): 默认使用的模型名称，当前为 "gemini-1.5-flash"
+        model_name (str): 当前使用的模型名称
+        generation_config (Dict): 当前使用的生成配置
+        model: Gemini API 模型实例
+        logger: 日志记录器实例
+
+    Methods:
+        __init__(model_name: str = None, config_preset: str = "standard_response_json", 
+                 custom_config: Dict[str, Any] = None):
+            初始化客户端，设置模型和配置参数
+            
+        _get_api_key() -> str:
+            从环境变量获取 API 密钥
+            
+        _initialize_api() -> None:
+            初始化 Gemini API 和模型实例
+            
+        generate_content(input_text: str, system_instruction: str = None) -> Optional[str]:
+            生成单轮对话内容，支持系统指令
+            
+        generate_with_history(history: List[Dict[str, Any]], 
+                            system_instruction: str = None) -> Optional[str]:
+            使用历史对话记录生成多轮对话内容，支持系统指令
+            
+    Raises:
+        ValueError: 当配置预设无效或 API 密钥未找到时
+        BlockedPromptException: 当内容生成被阻止时
+        Exception: 其他 API 调用相关错误
+        
+    Example:
+        >>> client = GeminiClient()
+        >>> response = client.generate_content("你好，请介绍下Python")
+        >>> print(response)
     """
     
     MODEL_CONFIGS = {
@@ -196,33 +234,30 @@ if __name__ == "__main__":
     # 创建 GeminiClient 实例
     client = GeminiClient()
     
-    # 准备对话历史记录
-    conversation_history = [
-        {
-            "role": "user",
-            "parts": ["你好，我想学习Python编程"]
-        },
-        {
-            "role": "model",
-            "parts": ["很高兴听到你想学习Python！Python是一个非常适合初学者的编程语言。我可以帮你从基础开始。你之前有任何编程经验吗？"]
-        },
-        {
-            "role": "user",
-            "parts": ["我完全是个新手，请给我一些学习建议"]
-        }
-    ]
-    
-    try:
-        # 设置系统指令（可选）
-        system_instruction = "你是一个专业的Python编程教师，用简单易懂的方式回答问题"
+    try:  
+        # 示例使用 generate_with_history
+        print("\n=== 多轮对话示例 ===")
+        conversation_history = [
+            {
+                "role": "user",
+                "parts": ["你好，我想学习Python编程"]
+            },
+            {
+                "role": "model",
+                "parts": ["很高兴听到你想学习Python！Python是一个非常适合初学者的编程语言。我可以帮你从基础开始。你之前有任何编程经验吗？"]
+            },
+            {
+                "role": "user",
+                "parts": ["我完全是个新手，请给我一些学习建议"]
+            }
+        ]
         
-        # 使用历史记录生成回复
         response = client.generate_with_history(
             history=conversation_history,
-            system_instruction=system_instruction
+            system_instruction="你是一个专业的Python编程教师，用简单易懂的方式回答问题"
         )
         
-        print("AI回复：")
+        print("AI回复（多轮对话）：")
         print(response)
         
     except Exception as e:
