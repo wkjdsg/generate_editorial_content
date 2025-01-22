@@ -1,142 +1,142 @@
 Keyword,Intent,Volume,Trend,Keyword Difficulty,CPC (USD),SERP Features
-Music ai,Informational,6600,"0.35,0.35,0.44,0.54,1.00,0.81,0.54,0.54,0.44,0.54,0.81,0.44",72,0.54,"Sitelinks, Reviews, Related searches"
-Logo Design ai,Commercial,5400,"0.81,0.36,0.66,0.29,0.54,0.36,0.66,0.81,0.36,0.66,0.54,1.00",70,1.39,"Sitelinks, Reviews, Image, Image pack, Video, Discussions and forums, Related searches, Ads top, Ads bottom"
-Chemistry ai,Commercial,3600,"0.10,0.19,0.29,0.44,0.44,0.36,0.23,0.10,0.13,0.44,1.00,0.66",24,1.02,"Sitelinks, Reviews, Video, Related searches, Ads top, Ads bottom"
-Physics ai,Commercial,2400,"0.19,0.24,0.36,0.43,0.54,0.28,0.15,0.15,0.10,0.66,1.00,0.81",23,0.85,"Sitelinks, Reviews, Video, Discussions and forums, Related searches"
-Finance ai,"Informational, Commercial",2400,"0.29,0.29,0.12,1.00,0.16,0.23,0.35,0.19,0.12,0.19,0.44,0.66",47,5.93,"Reviews, People also ask, Top stories, Related searches, Things to know"
-Accounting ai,Commercial,1900,"0.80,0.27,0.66,0.80,1.00,0.44,0.36,0.36,0.24,0.66,1.00,1.00",38,6.52,"Reviews, People also ask, Related searches"
-Data Analysis ai,Informational,1600,"0.13,0.82,1.00,0.20,0.16,0.82,0.30,0.55,0.55,1.00,0.82,1.00",53,11.04,"Reviews, Video carousel, People also ask, Related searches"
-Machine Learning ai,Commercial,1600,"0.44,0.34,0.34,0.30,0.55,0.44,0.82,0.65,0.34,0.55,1.00,0.82",75,4.62,"Sitelinks, Image pack, Video, People also ask, Discussions and forums, Related searches, Ads top"
-Copywriting ai,Informational,1600,"0.05,0.07,0.03,0.04,0.04,0.04,0.04,0.03,0.03,0.36,1.00,0.05",58,3.73,"Sitelinks, Reviews, Video, People also ask, Related searches, Things to know, Ads top, Ads bottom"
-Project Management ai,Commercial,1300,"0.52,0.52,0.68,0.68,0.52,0.52,0.52,0.46,0.84,0.68,0.84,1.00",49,7.49,"Sitelinks, Reviews, Video, People also ask, Related searches, Ads top, Ads bottom"
-Marketing ai,Commercial,1300,"0.16,0.24,0.24,0.27,0.27,0.36,0.66,0.27,0.27,0.52,1.00,0.36",72,11.58,"Sitelinks, Reviews, Video, People also ask, Related searches, Things to know, Ads top, Ads bottom"
-Translation ai,Commercial,1300,"0.37,0.68,0.68,0.68,0.68,0.52,0.52,0.68,0.68,0.68,1.00,0.68",70,1.09,"Sitelinks, Reviews, People also ask, Related searches, Things to know"
-Cybersecurity ai,Informational,1000,"0.20,0.55,1.00,0.45,0.62,0.81,0.45,0.36,0.55,0.55,0.81,0.55",58,6.69,"Reviews, Image pack, People also ask, Top stories, Related searches, Things to know"
-Graphic Design ai,"Informational, Commercial",1000,"0.67,0.76,1.00,0.67,1.00,1.00,0.56,0.67,0.76,1.00,0.76,0.67",75,1.83,"Sitelinks, Reviews, Image, Video, People also ask, Discussions and forums, Related searches"
-Opera ai,Transactional,1000,"0.67,0.55,0.67,0.76,0.76,0.67,0.55,0.67,0.67,1.00,1.00,0.76",71,0.64,"Sitelinks, Reviews, Image, Video, People also ask, Knowledge panel, Related searches, Things to know"
-Statistics ai,Commercial,1000,"0.30,0.20,0.30,1.00,0.66,0.41,0.30,0.41,0.16,0.41,0.79,0.79",75,1.52,"Video, People also ask, Related searches, Things to know, Ads middle"
-Artificial Intelligence ai,Informational,880,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00",100,4.99,"Sitelinks, Reviews, People also ask, Top stories, Related searches, Things to know"
-Photography ai,Commercial,880,"0.45,0.30,0.30,0.36,0.36,0.45,0.36,0.36,1.00,0.81,1.00,0.55",88,2.29,"Sitelinks, Reviews, Image, Image pack, Video, People also ask, Related searches, Ads bottom"
-Computer Vision ai,Informational,720,"0.59,1.00,0.88,0.59,0.88,0.72,0.72,0.59,0.72,0.59,0.88,0.88",58,3.43,"Sitelinks, Video, People also ask, Discussions and forums, Related searches, Things to know, Ads top"
-Conservation ai,Informational,720,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.53",39,8.72,"Sitelinks, Video, People also ask, Related searches"
-Dance ai,Transactional,720,"0.03,0.04,0.03,0.02,0.16,0.44,1.00,0.10,0.20,0.20,0.10,0.13",33,0.32,"Sitelinks, Reviews, Video, Related searches"
-History ai,Navigational,720,"0.41,0.20,0.20,0.20,0.24,0.24,0.10,0.16,0.30,0.20,0.54,1.00",64,1.51,"Sitelinks, Reviews, People also ask, Related searches, Things to know"
-Robotics ai,Informational,590,"0.30,0.30,0.20,0.36,1.00,0.55,0.30,0.67,0.45,0.13,0.36,0.55",69,1.91,"People also ask, Related searches"
-Calculus ai,"Informational, Commercial",590,"0.20,0.24,0.36,0.36,0.55,0.45,0.36,0.36,0.24,0.67,1.00,1.00",16,0.71,"Sitelinks, Reviews, Video, Related searches"
-Cloud Computing ai,Informational,480,"0.02,0.03,0.20,0.34,0.08,1.00,0.04,0.05,0.16,0.03,0.07,1.00",47,5.73,"People also ask, Top stories, Related searches, Things to know"
-Evolution ai,Navigational,480,"0.59,0.48,0.39,0.59,0.72,0.72,0.48,0.48,0.48,0.17,0.59,1.00",50,3.7,"Sitelinks, Reviews, Video, People also ask, Knowledge panel, Top stories, Related searches"
-Computer Science ai,"Informational, Commercial",390,"0.19,0.29,0.44,0.81,0.54,1.00,0.54,0.29,0.44,0.66,0.81,0.66",35,3.5,"Sitelinks, Video carousel, People also ask, Related searches, Things to know, Ads bottom"
-Digital Marketing ai,Commercial,390,"0.13,0.13,0.16,0.20,1.00,0.30,0.30,0.24,0.24,0.24,0.10,0.55",64,8.1,"Reviews, Video, People also ask, Related searches, Ads middle"
-Illustration ai,Informational,390,"0.07,0.07,0.07,0.04,0.05,0.16,0.07,0.16,0.08,0.03,0.36,1.00",75,26.46,"Sitelinks, Reviews, Image, Video, Knowledge panel, Related searches, Ads bottom"
-Psychology ai,Informational,390,"0.29,0.54,0.44,0.23,0.67,0.15,0.29,0.23,0.19,0.44,1.00,1.00",45,1.09,"Sitelinks, Reviews, Video, People also ask, Related searches"
-Biology ai,"Informational, Commercial",320,"0.10,0.13,0.20,0.20,0.36,0.16,0.10,0.06,0.03,0.55,1.00,0.55",31,1.98,"People also ask, Related searches"
-Data Science ai,Commercial,320,"0.81,0.54,0.35,0.81,0.54,0.35,0.28,1.00,0.81,0.54,0.81,0.66",50,5.21,"Sitelinks, AI Overview, Reviews, Video, People also ask, Related searches"
-Risk Management ai,Informational,320,"0.53,0.82,0.82,0.82,0.66,0.82,0.82,0.66,0.66,0.82,0.82,1.00",47,9.7,"Sitelinks, Reviews, Image pack, Video, People also ask, Discussions and forums, Related searches"
-Painting ai,Commercial,320,"1.00,0.20,0.50,0.25,0.25,0.15,0.15,0.15,0.20,0.15,0.35,0.20",87,0.78,"Sitelinks, Reviews, Image, Discussions and forums, Related searches"
-Insurance ai,"Informational, Commercial",260,"0.21,0.26,0.26,0.26,0.26,0.32,0.26,0.26,0.32,0.26,0.32,1.00",41,10.09,"Sitelinks, Image pack, People also ask, Top stories, Related searches"
-Market Research ai,Informational,260,"0.15,0.29,0.12,0.15,0.29,0.67,0.29,0.29,0.44,0.36,0.29,1.00",34,12.89,"Sitelinks, Image pack, Video carousel, People also ask, Discussions and forums, Related searches, Ads top"
-Creative Writing ai,"Informational, Commercial",260,"0.82,0.53,1.00,0.53,0.66,0.66,0.53,0.53,0.53,0.82,1.00,0.82",58,1.44,"Sitelinks, Reviews, Image pack, Video, People also ask, Related searches"
-Web Design ai,Informational,260,"0.65,0.81,1.00,0.81,0.15,1.00,1.00,0.81,0.81,0.65,0.43,0.65",78,6.5,"Sitelinks, Reviews, Video, Discussions and forums, Related searches, Ads bottom"
-Algebra ai,Informational,260,"0.43,0.53,0.66,0.53,0.82,0.66,0.53,0.23,0.43,0.82,1.00,0.82",43,1.12,"Sitelinks, Reviews, People also ask, Twitter, Discussions and forums, Related searches"
-Web Development ai,Informational,210,"0.23,0.66,0.17,0.28,0.82,0.82,0.28,0.23,0.53,0.66,1.00,1.00",41,5.38,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Related searches"
-Human Resources ai,Informational,210,"0.00,0.02,0.00,0.02,0.06,0.16,0.03,0.03,0.67,1.00,0.00,0.03",43,15.6,"AI Overview, Video, People also ask, Discussions and forums, Related searches, Ads top, Ads bottom, Ads middle"
-Geometry ai,Commercial,210,"0.22,0.43,1.00,0.66,1.00,0.66,0.35,0.08,0.29,0.35,0.54,0.35",14,0.86,"Reviews, Related searches"
-Big Data ai,Informational,170,"0.65,0.53,0.43,0.53,0.43,0.21,0.81,0.21,0.43,0.53,1.00,0.34",35,5.94,"Reviews, Image pack, People also ask, Top stories, Related searches"
-Data Visualization ai,"Informational, Commercial",170,"0.21,0.34,0.34,0.43,0.53,0.53,0.53,0.65,0.65,0.81,1.00,1.00",42,9.27,"Sitelinks, Reviews, People also ask, Related searches"
-Natural Language Processing ai,Commercial,170,"0.11,0.18,1.00,0.18,0.28,0.44,0.15,0.11,0.18,0.06,0.28,0.11",88,5.08,"Sitelinks, Video, People also ask, Related searches"
-Email Marketing ai,Commercial,170,"0.23,0.23,0.23,0.23,0.23,0.28,0.28,0.28,0.28,0.28,0.35,1.00",41,18.12,"Sitelinks, Reviews, Video, Video carousel, People also ask, Related searches"
-Wealth Management ai,Informational,170,"0.07,0.08,0.05,0.08,0.13,0.13,0.11,0.08,0.11,0.13,0.11,1.00",40,9.54,"Reviews, Video, People also ask, Top stories, Related searches"
-Organic Chemistry ai,Informational,140,"0.28,0.35,0.35,0.28,0.35,0.23,0.23,0.28,0.12,0.66,1.00,0.53",4,0.96,"Sitelinks, Reviews, Video, Related searches"
-Screenwriting ai,"Informational, Commercial",140,"0.82,1.00,1.00,0.82,1.00,0.64,0.82,0.64,0.41,0.82,0.64,0.82",35,1.34,"Sitelinks, Reviews, Image, Image pack, Video, People also ask, Related searches, Things to know"
-Procurement ai,Commercial,110,"0.64,0.52,0.64,0.64,1.00,0.52,0.41,0.52,0.64,0.82,1.00,0.64",33,9.59,"Sitelinks, Image pack, Video carousel, People also ask, Related searches"
-Content Marketing ai,Commercial,110,"0.34,0.09,0.03,0.34,0.15,0.34,1.00,0.34,0.28,0.81,0.43,0.34",51,7.08,"Sitelinks, Image pack, People also ask, Related searches"
-Shakespeare ai,Informational,110,"1.00,0.65,0.53,0.53,0.53,0.42,0.34,0.26,0.34,0.42,0.34,0.53",12,0,"Reviews, Video, Related searches"
-UI Design ai,Informational,110,"0.19,0.34,0.34,0.42,0.42,0.53,0.42,1.00,0.42,0.53,0.65,1.00",39,2.87,"Sitelinks, Reviews, Discussions and forums, Related searches"
-Auditing ai,Commercial,90,"0.06,0.08,0.11,0.08,0.08,0.08,0.08,0.08,0.01,0.06,1.00,0.08",32,9.68,"Image pack, Video carousel, People also ask, Related searches"
-Anthropology ai,Informational,90,"0.50,0.64,0.35,0.50,0.50,1.00,0.64,0.50,0.50,0.64,0.64,0.50",21,1.95,"Reviews, Image, Image pack, People also ask, Knowledge panel, Related searches"
-Software Engineering ai,Commercial,90,"0.15,0.11,0.15,0.80,1.00,0.07,0.00,0.26,1.00,0.19,0.26,0.26",37,5.47,"Sitelinks, Reviews, Image pack, Video, Video carousel, People also ask, Related searches"
-Advertising ai,Commercial,90,"0.00,0.81,0.24,0.14,0.14,0.43,0.43,0.53,0.53,1.00,0.33,0.66",75,10.86,"Video, Related searches"
-Music Theory ai,Informational,90,"0.52,0.09,0.09,0.42,0.52,0.42,0.33,0.23,0.42,0.80,1.00,1.00",12,1.03,"Sitelinks, Reviews, Video, People also ask, Discussions and forums, Related searches"
-UX Design ai,Informational,90,"0.45,0.64,0.64,0.81,0.81,0.81,1.00,0.81,0.81,0.81,1.00,0.64",47,3.81,"Sitelinks, Reviews, Image, Discussions and forums, Related searches"
-Decision Making ai,Informational,70,"0.23,0.19,0.09,0.04,0.09,0.42,0.42,0.42,1.00,0.42,0.80,0.42",59,6.46,"Featured snippet, Reviews, Video, People also ask, Related searches"
-Financial Analysis ai,Commercial,70,"0.36,0.45,0.36,0.36,0.45,0.45,0.36,0.45,0.81,1.00,1.00,0.63",47,11.55,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
-Inventory Management ai,Informational,70,"1.00,0.27,0.45,0.64,0.45,0.36,0.45,0.45,0.45,0.64,0.64,0.64",19,21.74,"Sitelinks, Reviews, People also ask, Related searches"
-Transportation ai,Informational,70,"0.23,0.23,0.29,0.23,1.00,0.23,0.23,0.82,0.23,1.00,0.64,0.52",34,3.64,"Reviews, Video, People also ask, Related searches"
-Data Mining ai,Informational,70,"0.04,0.09,0.19,0.33,0.42,1.00,0.00,0.33,0.42,0.66,0.00,0.04",23,6.1,"Sitelinks, AI Overview, Reviews, Video carousel, People also ask, Related searches, See results about"
-Geology ai,Informational,70,"0.18,0.81,0.63,0.63,0.81,0.63,0.63,0.63,0.63,0.63,1.00,0.45",19,0,"Sitelinks, Reviews, People also ask, Related searches, See results about"
-Poster Design ai,Informational,70,"0.08,0.00,0.08,0.08,0.08,0.15,0.08,0.15,0.15,0.54,1.00,0.15",50,1.17,"Sitelinks, Reviews, Image, Discussions and forums, Related searches, Ads bottom"
-Linear Algebra ai,Informational,70,"0.00,0.00,0.07,0.50,0.50,1.00,1.00,0.64,0.64,0.64,0.78,1.00",25,1.52,"Sitelinks, Reviews, Image pack, People also ask, Discussions and forums, Related searches"
-Trigonometry ai,Commercial,70,"0.28,0.07,0.64,0.64,0.64,0.64,0.50,0.35,0.35,0.78,0.78,1.00",14,0.57,"Sitelinks, Reviews, Video, Related searches"
-Budgeting ai,Informational,50,"0.04,0.19,0.14,0.14,0.14,0.19,0.09,0.33,0.19,0.23,1.00,0.80",18,0.93,"Sitelinks, Reviews, Video, People also ask, Related searches"
-Logistics ai,Informational,50,"0.00,0.33,0.04,0.23,0.09,0.33,0.42,0.09,0.23,0.42,0.42,1.00",30,6.27,"Sitelinks, AI Overview, Reviews, Image pack, People also ask, Discussions and forums, Related searches"
-Purchasing ai,Transactional,50,"0.21,1.00,0.21,1.00,1.00,1.00,0.21,0.21,0.21,0.21,0.76,0.56",26,5.59,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
-Game Theory ai,Informational,50,"0.18,0.18,1.00,0.18,0.82,0.82,0.18,0.18,0.18,1.00,0.36,1.00",34,0,"Featured snippet, AI Overview, Image, Video, People also ask, Discussions and forums, Related searches"
-Geography ai,Informational,50,"0.11,0.11,0.52,0.23,0.11,0.11,1.00,0.64,0.17,0.00,0.00,0.52",33,3.94,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
-Astronomy ai,Informational,50,"0.11,0.11,0.11,0.52,0.52,0.00,0.29,0.11,0.11,0.64,1.00,0.41",34,3.8,"Image pack, Video, People also ask, Related searches"
-Financial Modeling ai,Informational,50,"0.22,0.44,0.44,0.44,0.22,1.00,0.44,0.55,0.55,0.77,0.77,0.77",18,9.1,"Sitelinks, Reviews, Video, People also ask, Related searches, Ads top, Ads bottom"
-Financial Planning ai,"Informational, Commercial",50,"0.17,0.17,0.17,0.17,0.26,0.81,0.81,0.62,1.00,0.45,1.00,0.62",48,7.47,"Sitelinks, Video, People also ask, Related searches"
-Private Equity ai,Commercial,50,"0.27,1.00,0.56,0.41,0.56,0.71,0.71,0.71,0.71,0.71,1.00,0.71",18,5.97,"Sitelinks, People also ask, Top stories, Discussions and forums, Related searches"
-Social Media Marketing ai,Commercial,50,"0.05,0.17,0.05,0.05,0.07,0.05,0.05,0.10,0.05,0.07,0.66,1.00",59,5.3,"Sitelinks, Reviews, Video, People also ask, Related searches"
-Performance ai,"Informational, Transactional",50,"0.45,0.63,0.45,0.81,1.00,0.18,0.18,0.18,0.36,0.18,0.18,0.18",21,5.06,"Image pack, Video carousel, People also ask, Related searches"
-Poetry Analysis ai,Transactional,50,"0.14,1.00,1.00,0.00,1.00,0.07,0.00,0.28,0.07,0.07,1.00,0.14",12,1.48,"Sitelinks, Reviews, Video, Related searches"
-Unemployment ai,Informational,40,"0.11,0.22,0.44,0.44,0.33,1.00,0.11,0.22,0.77,0.55,0.33,0.33",50,1.57,"Sitelinks, Image pack, Video, People also ask, Related searches"
-Mechanical Engineering ai,Informational,40,"0.58,0.27,0.00,0.42,0.73,0.00,1.00,0.58,0.27,0.73,0.73,0.73",29,4.24,"Sitelinks, Video, People also ask, Discussions and forums, Related searches"
-Optics ai,Informational,40,"0.55,0.77,0.77,1.00,0.77,0.00,1.00,0.00,0.00,0.00,0.00,0.00",15,4.2,"Video, People also ask, Related searches"
-English Literature ai,Informational,40,"0.48,0.48,0.48,1.00,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48",18,0,"Sitelinks, People also ask, Related searches"
-Financial Accounting ai,Commercial,30,"0.40,0.40,0.60,0.60,0.40,0.40,0.40,0.40,0.40,0.40,1.00,1.00",31,7.22,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
-Quality Control ai,Informational,30,"0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,1.00,0.71,0.27",19,7.03,"Reviews, Image pack, Video, People also ask, Related searches"
-Supply Chain Management ai,Informational,30,"0.03,0.03,0.03,0.03,0.03,0.05,0.03,0.08,0.03,0.06,0.18,1.00",46,12.52,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Related searches"
-Taxation ai,Commercial,30,"0.09,0.09,0.09,0.09,0.00,0.00,0.00,0.52,0.00,0.00,1.00,0.52",37,4.18,"Video, People also ask, Related searches, Things to know, Ads top, Ads bottom"
-Inflation ai,,30,"0.18,0.18,0.18,0.81,0.18,0.18,0.18,0.18,0.18,0.18,1.00,0.18",,0,
-Microeconomics ai,Commercial,30,"0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.64,1.00",3,1.75,"Reviews, Related searches"
-Cryptography ai,Informational,30,"1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.78,0.00",42,3.4,"Featured snippet, Image, Image pack, Video, People also ask, Related searches"
-Data Security ai,,30,"0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.57,0.71,1.00",,9.86,
-Electrical Engineering ai,Informational,30,"0.11,0.11,0.11,0.11,0.11,0.11,0.00,0.11,0.00,1.00,0.11,0.11",11,2.64,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Discussions and forums, Related searches"
-Business Analytics ai,"Informational, Commercial",30,"0.42,0.42,0.28,0.57,0.57,0.57,0.42,0.71,0.42,0.28,1.00,0.57",21,9.53,"Reviews, Image pack, Video, People also ask, Related searches"
-Competitive Analysis ai,,30,"0.18,0.18,0.18,0.18,0.18,0.27,0.27,0.27,0.18,0.18,0.00,1.00",,9.36,
-Investment Banking ai,,30,"0.00,0.40,0.20,0.40,1.00,1.00,0.40,0.60,0.40,0.20,1.00,0.80",,5.54,
-Marketing Strategy ai,"Informational, Commercial",30,"0.80,0.60,0.60,0.60,0.40,0.40,0.60,0.60,0.60,0.60,0.60,1.00",42,15.63,"Reviews, People also ask, Discussions and forums, Related searches"
-Search Engine Optimization ai,"Informational, Commercial",30,"0.18,0.18,0.18,0.18,0.18,0.18,0.45,0.27,0.09,0.00,0.81,1.00",50,7.9,"Sitelinks, Reviews, People also ask, Related searches"
-Venture Capital ai,Informational,30,"0.00,0.00,0.00,0.04,0.04,0.04,0.04,0.04,0.14,1.00,0.00,0.04",29,3.62,"Sitelinks, Video, People also ask, Top stories, Related searches"
-Acting ai,,30,"0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,1.00",,2.65,
-Ballet ai,Informational,30,"0.18,0.18,0.18,0.18,0.18,0.18,0.18,1.00,0.18,0.18,0.18,0.18",23,0,"Sitelinks, Reviews, Image pack, Video, People also ask, Related searches"
-Cinematography ai,Informational,30,"0.22,0.22,0.22,0.22,0.22,1.00,0.22,0.22,0.22,0.55,0.77,0.55",32,1.81,"Reviews, Image, Video, People also ask, Related searches"
-Oil Painting ai,Commercial,30,"0.17,0.37,1.00,0.17,0.17,0.17,0.17,0.37,0.37,0.17,0.17,0.17",6,0.89,"Sitelinks, Reviews, Image, Image pack, Video, Related searches"
-Archaeology ai,,20,"0.50,0.50,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Cartography ai,,20,"0.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Discourse Analysis ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00,1.00,0.00,1.00",,0,
-Human Evolution ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Hydrology ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Macroeconomics ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,1.74,
-Remote Sensing ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Urban Planning ai,,20,"0.14,0.14,0.42,0.28,0.00,0.42,0.00,0.42,0.00,1.00,0.00,0.14",,3.9,
-Botany ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Circuit Analysis ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,2.95,
-Electronics ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,3.5,
-Ethical Hacking ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Incident Response ai,,20,"0.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,21.96,
-Information Technology ai,,20,"0.00,0.00,0.40,0.20,0.60,0.00,0.00,1.00,0.80,0.40,0.20,0.80",,5.18,
-Microbiology ai,,20,"0.66,0.66,0.66,0.66,0.66,0.66,0.66,0.66,0.33,1.00,1.00,1.00",,2.29,
-Network Security ai,,20,"0.00,1.00,0.09,0.00,0.00,0.00,0.00,0.09,0.00,0.00,0.36,0.00",,11.25,
-Physiology ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,1.62,
-Quantum Physics ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,3.04,
-Signal Processing ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,4.4,
-Statistical Analysis ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,7.32,
-Thermodynamics ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
-Globalization ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.22,0.22",,0,
-Spatial Analysis ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,1.00",,0,
-Sustainable Development ai,,10,"0.00,1.00,1.00,1.00,1.00,0.00,0.00,1.00,0.00,1.00,1.00,1.00",,0,
-Analytical Chemistry ai,,10,"0.50,0.00,0.50,0.00,0.00,0.00,1.00",,0,
-Biochemistry ai,,10,"0.00,0.00,0.00,0.00,0.50,0.00,0.00,1.00,1.00,1.00,1.00,1.00",,2.3,
-Data Engineering ai,,10,"0.33,0.66,0.33,0.33,0.66,0.00,0.00,1.00,0.00,0.00,0.66,0.00",,5.46,
-Database Management ai,,10,"0.50,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00",,11.55,
-Digital Forensics ai,,10,"1.00,0.50,0.00,0.50,0.50,0.50,0.00,0.00,0.00,0.00,0.50,1.00",,0,
-Ecology ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,1.00",,0,
-Fluid Mechanics ai,,10,"0.00,0.00,0.00,1.00,1.00,1.00",,0,
-Genetics ai,,10,"0.00,0.00,0.25,0.25,0.00,0.00,0.25,0.25,0.00,1.00,0.25,0.25",,3.37,
-Power Systems ai,,10,"0.00,1.00,0.00,0.00,0.00,1.00,1.00,0.00,1.00,1.00,1.00,1.00",,0,
-Renewable Energy ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.50,1.00,0.50,0.00,0.50,0.75",,3.17,
-Aerospace Engineering ai,,0,"0.50,0.50,0.00,0.00,0.00,0.00,0.00,1.00",,0,
-Geophysics ai,,0,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00",,0,
-Mechatronics ai,,0,"0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00",,0,
-Telecommunications ai,,0,"0.00,0.00,0.00,1.00,0.00,0.00,1.00,0.00,1.00,0.00,0.00,0.00",,10.37,
+Music-ai,Informational,6600,"0.35,0.35,0.44,0.54,1.00,0.81,0.54,0.54,0.44,0.54,0.81,0.44",72,0.54,"Sitelinks, Reviews, Related searches"
+Logo Design-ai,Commercial,5400,"0.81,0.36,0.66,0.29,0.54,0.36,0.66,0.81,0.36,0.66,0.54,1.00",70,1.39,"Sitelinks, Reviews, Image, Image pack, Video, Discussions and forums, Related searches, Ads top, Ads bottom"
+Chemistry-ai,Commercial,3600,"0.10,0.19,0.29,0.44,0.44,0.36,0.23,0.10,0.13,0.44,1.00,0.66",24,1.02,"Sitelinks, Reviews, Video, Related searches, Ads top, Ads bottom"
+Physics-ai,Commercial,2400,"0.19,0.24,0.36,0.43,0.54,0.28,0.15,0.15,0.10,0.66,1.00,0.81",23,0.85,"Sitelinks, Reviews, Video, Discussions and forums, Related searches"
+Finance-ai,"Informational, Commercial",2400,"0.29,0.29,0.12,1.00,0.16,0.23,0.35,0.19,0.12,0.19,0.44,0.66",47,5.93,"Reviews, People also ask, Top stories, Related searches, Things to know"
+Accounting-ai,Commercial,1900,"0.80,0.27,0.66,0.80,1.00,0.44,0.36,0.36,0.24,0.66,1.00,1.00",38,6.52,"Reviews, People also ask, Related searches"
+Data Analysis-ai,Informational,1600,"0.13,0.82,1.00,0.20,0.16,0.82,0.30,0.55,0.55,1.00,0.82,1.00",53,11.04,"Reviews, Video carousel, People also ask, Related searches"
+Machine Learning-ai,Commercial,1600,"0.44,0.34,0.34,0.30,0.55,0.44,0.82,0.65,0.34,0.55,1.00,0.82",75,4.62,"Sitelinks, Image pack, Video, People also ask, Discussions and forums, Related searches, Ads top"
+Copywriting-ai,Informational,1600,"0.05,0.07,0.03,0.04,0.04,0.04,0.04,0.03,0.03,0.36,1.00,0.05",58,3.73,"Sitelinks, Reviews, Video, People also ask, Related searches, Things to know, Ads top, Ads bottom"
+Project Management-ai,Commercial,1300,"0.52,0.52,0.68,0.68,0.52,0.52,0.52,0.46,0.84,0.68,0.84,1.00",49,7.49,"Sitelinks, Reviews, Video, People also ask, Related searches, Ads top, Ads bottom"
+Marketing-ai,Commercial,1300,"0.16,0.24,0.24,0.27,0.27,0.36,0.66,0.27,0.27,0.52,1.00,0.36",72,11.58,"Sitelinks, Reviews, Video, People also ask, Related searches, Things to know, Ads top, Ads bottom"
+Translation-ai,Commercial,1300,"0.37,0.68,0.68,0.68,0.68,0.52,0.52,0.68,0.68,0.68,1.00,0.68",70,1.09,"Sitelinks, Reviews, People also ask, Related searches, Things to know"
+Cybersecurity-ai,Informational,1000,"0.20,0.55,1.00,0.45,0.62,0.81,0.45,0.36,0.55,0.55,0.81,0.55",58,6.69,"Reviews, Image pack, People also ask, Top stories, Related searches, Things to know"
+Graphic Design-ai,"Informational, Commercial",1000,"0.67,0.76,1.00,0.67,1.00,1.00,0.56,0.67,0.76,1.00,0.76,0.67",75,1.83,"Sitelinks, Reviews, Image, Video, People also ask, Discussions and forums, Related searches"
+Opera-ai,Transactional,1000,"0.67,0.55,0.67,0.76,0.76,0.67,0.55,0.67,0.67,1.00,1.00,0.76",71,0.64,"Sitelinks, Reviews, Image, Video, People also ask, Knowledge panel, Related searches, Things to know"
+Statistics-ai,Commercial,1000,"0.30,0.20,0.30,1.00,0.66,0.41,0.30,0.41,0.16,0.41,0.79,0.79",75,1.52,"Video, People also ask, Related searches, Things to know, Ads middle"
+Artificial Intelligence-ai,Informational,880,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00",100,4.99,"Sitelinks, Reviews, People also ask, Top stories, Related searches, Things to know"
+Photography-ai,Commercial,880,"0.45,0.30,0.30,0.36,0.36,0.45,0.36,0.36,1.00,0.81,1.00,0.55",88,2.29,"Sitelinks, Reviews, Image, Image pack, Video, People also ask, Related searches, Ads bottom"
+Computer Vision-ai,Informational,720,"0.59,1.00,0.88,0.59,0.88,0.72,0.72,0.59,0.72,0.59,0.88,0.88",58,3.43,"Sitelinks, Video, People also ask, Discussions and forums, Related searches, Things to know, Ads top"
+Conservation-ai,Informational,720,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.53",39,8.72,"Sitelinks, Video, People also ask, Related searches"
+Dance-ai,Transactional,720,"0.03,0.04,0.03,0.02,0.16,0.44,1.00,0.10,0.20,0.20,0.10,0.13",33,0.32,"Sitelinks, Reviews, Video, Related searches"
+History-ai,Navigational,720,"0.41,0.20,0.20,0.20,0.24,0.24,0.10,0.16,0.30,0.20,0.54,1.00",64,1.51,"Sitelinks, Reviews, People also ask, Related searches, Things to know"
+Robotics-ai,Informational,590,"0.30,0.30,0.20,0.36,1.00,0.55,0.30,0.67,0.45,0.13,0.36,0.55",69,1.91,"People also ask, Related searches"
+Calculus-ai,"Informational, Commercial",590,"0.20,0.24,0.36,0.36,0.55,0.45,0.36,0.36,0.24,0.67,1.00,1.00",16,0.71,"Sitelinks, Reviews, Video, Related searches"
+Cloud Computing-ai,Informational,480,"0.02,0.03,0.20,0.34,0.08,1.00,0.04,0.05,0.16,0.03,0.07,1.00",47,5.73,"People also ask, Top stories, Related searches, Things to know"
+Evolution-ai,Navigational,480,"0.59,0.48,0.39,0.59,0.72,0.72,0.48,0.48,0.48,0.17,0.59,1.00",50,3.7,"Sitelinks, Reviews, Video, People also ask, Knowledge panel, Top stories, Related searches"
+Computer Science-ai,"Informational, Commercial",390,"0.19,0.29,0.44,0.81,0.54,1.00,0.54,0.29,0.44,0.66,0.81,0.66",35,3.5,"Sitelinks, Video carousel, People also ask, Related searches, Things to know, Ads bottom"
+Digital Marketing-ai,Commercial,390,"0.13,0.13,0.16,0.20,1.00,0.30,0.30,0.24,0.24,0.24,0.10,0.55",64,8.1,"Reviews, Video, People also ask, Related searches, Ads middle"
+Illustration-ai,Informational,390,"0.07,0.07,0.07,0.04,0.05,0.16,0.07,0.16,0.08,0.03,0.36,1.00",75,26.46,"Sitelinks, Reviews, Image, Video, Knowledge panel, Related searches, Ads bottom"
+Psychology-ai,Informational,390,"0.29,0.54,0.44,0.23,0.67,0.15,0.29,0.23,0.19,0.44,1.00,1.00",45,1.09,"Sitelinks, Reviews, Video, People also ask, Related searches"
+Biology-ai,"Informational, Commercial",320,"0.10,0.13,0.20,0.20,0.36,0.16,0.10,0.06,0.03,0.55,1.00,0.55",31,1.98,"People also ask, Related searches"
+Data Science-ai,Commercial,320,"0.81,0.54,0.35,0.81,0.54,0.35,0.28,1.00,0.81,0.54,0.81,0.66",50,5.21,"Sitelinks,-ai Overview, Reviews, Video, People also ask, Related searches"
+Risk Management-ai,Informational,320,"0.53,0.82,0.82,0.82,0.66,0.82,0.82,0.66,0.66,0.82,0.82,1.00",47,9.7,"Sitelinks, Reviews, Image pack, Video, People also ask, Discussions and forums, Related searches"
+Painting-ai,Commercial,320,"1.00,0.20,0.50,0.25,0.25,0.15,0.15,0.15,0.20,0.15,0.35,0.20",87,0.78,"Sitelinks, Reviews, Image, Discussions and forums, Related searches"
+Insurance-ai,"Informational, Commercial",260,"0.21,0.26,0.26,0.26,0.26,0.32,0.26,0.26,0.32,0.26,0.32,1.00",41,10.09,"Sitelinks, Image pack, People also ask, Top stories, Related searches"
+Market Research-ai,Informational,260,"0.15,0.29,0.12,0.15,0.29,0.67,0.29,0.29,0.44,0.36,0.29,1.00",34,12.89,"Sitelinks, Image pack, Video carousel, People also ask, Discussions and forums, Related searches, Ads top"
+Creative Writing-ai,"Informational, Commercial",260,"0.82,0.53,1.00,0.53,0.66,0.66,0.53,0.53,0.53,0.82,1.00,0.82",58,1.44,"Sitelinks, Reviews, Image pack, Video, People also ask, Related searches"
+Web Design-ai,Informational,260,"0.65,0.81,1.00,0.81,0.15,1.00,1.00,0.81,0.81,0.65,0.43,0.65",78,6.5,"Sitelinks, Reviews, Video, Discussions and forums, Related searches, Ads bottom"
+Algebra-ai,Informational,260,"0.43,0.53,0.66,0.53,0.82,0.66,0.53,0.23,0.43,0.82,1.00,0.82",43,1.12,"Sitelinks, Reviews, People also ask, Twitter, Discussions and forums, Related searches"
+Web Development-ai,Informational,210,"0.23,0.66,0.17,0.28,0.82,0.82,0.28,0.23,0.53,0.66,1.00,1.00",41,5.38,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Related searches"
+Human Resources-ai,Informational,210,"0.00,0.02,0.00,0.02,0.06,0.16,0.03,0.03,0.67,1.00,0.00,0.03",43,15.6,"AI Overview, Video, People also ask, Discussions and forums, Related searches, Ads top, Ads bottom, Ads middle"
+Geometry-ai,Commercial,210,"0.22,0.43,1.00,0.66,1.00,0.66,0.35,0.08,0.29,0.35,0.54,0.35",14,0.86,"Reviews, Related searches"
+Big Data-ai,Informational,170,"0.65,0.53,0.43,0.53,0.43,0.21,0.81,0.21,0.43,0.53,1.00,0.34",35,5.94,"Reviews, Image pack, People also ask, Top stories, Related searches"
+Data Visualization-ai,"Informational, Commercial",170,"0.21,0.34,0.34,0.43,0.53,0.53,0.53,0.65,0.65,0.81,1.00,1.00",42,9.27,"Sitelinks, Reviews, People also ask, Related searches"
+Natural Language Processing-ai,Commercial,170,"0.11,0.18,1.00,0.18,0.28,0.44,0.15,0.11,0.18,0.06,0.28,0.11",88,5.08,"Sitelinks, Video, People also ask, Related searches"
+Email Marketing-ai,Commercial,170,"0.23,0.23,0.23,0.23,0.23,0.28,0.28,0.28,0.28,0.28,0.35,1.00",41,18.12,"Sitelinks, Reviews, Video, Video carousel, People also ask, Related searches"
+Wealth Management-ai,Informational,170,"0.07,0.08,0.05,0.08,0.13,0.13,0.11,0.08,0.11,0.13,0.11,1.00",40,9.54,"Reviews, Video, People also ask, Top stories, Related searches"
+Organic Chemistry-ai,Informational,140,"0.28,0.35,0.35,0.28,0.35,0.23,0.23,0.28,0.12,0.66,1.00,0.53",4,0.96,"Sitelinks, Reviews, Video, Related searches"
+Screenwriting-ai,"Informational, Commercial",140,"0.82,1.00,1.00,0.82,1.00,0.64,0.82,0.64,0.41,0.82,0.64,0.82",35,1.34,"Sitelinks, Reviews, Image, Image pack, Video, People also ask, Related searches, Things to know"
+Procurement-ai,Commercial,110,"0.64,0.52,0.64,0.64,1.00,0.52,0.41,0.52,0.64,0.82,1.00,0.64",33,9.59,"Sitelinks, Image pack, Video carousel, People also ask, Related searches"
+Content Marketing-ai,Commercial,110,"0.34,0.09,0.03,0.34,0.15,0.34,1.00,0.34,0.28,0.81,0.43,0.34",51,7.08,"Sitelinks, Image pack, People also ask, Related searches"
+Shakespeare-ai,Informational,110,"1.00,0.65,0.53,0.53,0.53,0.42,0.34,0.26,0.34,0.42,0.34,0.53",12,0,"Reviews, Video, Related searches"
+UI Design-ai,Informational,110,"0.19,0.34,0.34,0.42,0.42,0.53,0.42,1.00,0.42,0.53,0.65,1.00",39,2.87,"Sitelinks, Reviews, Discussions and forums, Related searches"
+Auditing-ai,Commercial,90,"0.06,0.08,0.11,0.08,0.08,0.08,0.08,0.08,0.01,0.06,1.00,0.08",32,9.68,"Image pack, Video carousel, People also ask, Related searches"
+Anthropology-ai,Informational,90,"0.50,0.64,0.35,0.50,0.50,1.00,0.64,0.50,0.50,0.64,0.64,0.50",21,1.95,"Reviews, Image, Image pack, People also ask, Knowledge panel, Related searches"
+Software Engineering-ai,Commercial,90,"0.15,0.11,0.15,0.80,1.00,0.07,0.00,0.26,1.00,0.19,0.26,0.26",37,5.47,"Sitelinks, Reviews, Image pack, Video, Video carousel, People also ask, Related searches"
+Advertising-ai,Commercial,90,"0.00,0.81,0.24,0.14,0.14,0.43,0.43,0.53,0.53,1.00,0.33,0.66",75,10.86,"Video, Related searches"
+Music Theory-ai,Informational,90,"0.52,0.09,0.09,0.42,0.52,0.42,0.33,0.23,0.42,0.80,1.00,1.00",12,1.03,"Sitelinks, Reviews, Video, People also ask, Discussions and forums, Related searches"
+UX Design-ai,Informational,90,"0.45,0.64,0.64,0.81,0.81,0.81,1.00,0.81,0.81,0.81,1.00,0.64",47,3.81,"Sitelinks, Reviews, Image, Discussions and forums, Related searches"
+Decision Making-ai,Informational,70,"0.23,0.19,0.09,0.04,0.09,0.42,0.42,0.42,1.00,0.42,0.80,0.42",59,6.46,"Featured snippet, Reviews, Video, People also ask, Related searches"
+Financial Analysis-ai,Commercial,70,"0.36,0.45,0.36,0.36,0.45,0.45,0.36,0.45,0.81,1.00,1.00,0.63",47,11.55,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
+Inventory Management-ai,Informational,70,"1.00,0.27,0.45,0.64,0.45,0.36,0.45,0.45,0.45,0.64,0.64,0.64",19,21.74,"Sitelinks, Reviews, People also ask, Related searches"
+Transportation-ai,Informational,70,"0.23,0.23,0.29,0.23,1.00,0.23,0.23,0.82,0.23,1.00,0.64,0.52",34,3.64,"Reviews, Video, People also ask, Related searches"
+Data Mining-ai,Informational,70,"0.04,0.09,0.19,0.33,0.42,1.00,0.00,0.33,0.42,0.66,0.00,0.04",23,6.1,"Sitelinks,-ai Overview, Reviews, Video carousel, People also ask, Related searches, See results about"
+Geology-ai,Informational,70,"0.18,0.81,0.63,0.63,0.81,0.63,0.63,0.63,0.63,0.63,1.00,0.45",19,0,"Sitelinks, Reviews, People also ask, Related searches, See results about"
+Poster Design-ai,Informational,70,"0.08,0.00,0.08,0.08,0.08,0.15,0.08,0.15,0.15,0.54,1.00,0.15",50,1.17,"Sitelinks, Reviews, Image, Discussions and forums, Related searches, Ads bottom"
+Linear Algebra-ai,Informational,70,"0.00,0.00,0.07,0.50,0.50,1.00,1.00,0.64,0.64,0.64,0.78,1.00",25,1.52,"Sitelinks, Reviews, Image pack, People also ask, Discussions and forums, Related searches"
+Trigonometry-ai,Commercial,70,"0.28,0.07,0.64,0.64,0.64,0.64,0.50,0.35,0.35,0.78,0.78,1.00",14,0.57,"Sitelinks, Reviews, Video, Related searches"
+Budgeting-ai,Informational,50,"0.04,0.19,0.14,0.14,0.14,0.19,0.09,0.33,0.19,0.23,1.00,0.80",18,0.93,"Sitelinks, Reviews, Video, People also ask, Related searches"
+Logistics-ai,Informational,50,"0.00,0.33,0.04,0.23,0.09,0.33,0.42,0.09,0.23,0.42,0.42,1.00",30,6.27,"Sitelinks,-ai Overview, Reviews, Image pack, People also ask, Discussions and forums, Related searches"
+Purchasing-ai,Transactional,50,"0.21,1.00,0.21,1.00,1.00,1.00,0.21,0.21,0.21,0.21,0.76,0.56",26,5.59,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
+Game Theory-ai,Informational,50,"0.18,0.18,1.00,0.18,0.82,0.82,0.18,0.18,0.18,1.00,0.36,1.00",34,0,"Featured snippet,-ai Overview, Image, Video, People also ask, Discussions and forums, Related searches"
+Geography-ai,Informational,50,"0.11,0.11,0.52,0.23,0.11,0.11,1.00,0.64,0.17,0.00,0.00,0.52",33,3.94,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
+Astronomy-ai,Informational,50,"0.11,0.11,0.11,0.52,0.52,0.00,0.29,0.11,0.11,0.64,1.00,0.41",34,3.8,"Image pack, Video, People also ask, Related searches"
+Financial Modeling-ai,Informational,50,"0.22,0.44,0.44,0.44,0.22,1.00,0.44,0.55,0.55,0.77,0.77,0.77",18,9.1,"Sitelinks, Reviews, Video, People also ask, Related searches, Ads top, Ads bottom"
+Financial Planning-ai,"Informational, Commercial",50,"0.17,0.17,0.17,0.17,0.26,0.81,0.81,0.62,1.00,0.45,1.00,0.62",48,7.47,"Sitelinks, Video, People also ask, Related searches"
+Private Equity-ai,Commercial,50,"0.27,1.00,0.56,0.41,0.56,0.71,0.71,0.71,0.71,0.71,1.00,0.71",18,5.97,"Sitelinks, People also ask, Top stories, Discussions and forums, Related searches"
+Social Media Marketing-ai,Commercial,50,"0.05,0.17,0.05,0.05,0.07,0.05,0.05,0.10,0.05,0.07,0.66,1.00",59,5.3,"Sitelinks, Reviews, Video, People also ask, Related searches"
+Performance-ai,"Informational, Transactional",50,"0.45,0.63,0.45,0.81,1.00,0.18,0.18,0.18,0.36,0.18,0.18,0.18",21,5.06,"Image pack, Video carousel, People also ask, Related searches"
+Poetry Analysis-ai,Transactional,50,"0.14,1.00,1.00,0.00,1.00,0.07,0.00,0.28,0.07,0.07,1.00,0.14",12,1.48,"Sitelinks, Reviews, Video, Related searches"
+Unemployment-ai,Informational,40,"0.11,0.22,0.44,0.44,0.33,1.00,0.11,0.22,0.77,0.55,0.33,0.33",50,1.57,"Sitelinks, Image pack, Video, People also ask, Related searches"
+Mechanical Engineering-ai,Informational,40,"0.58,0.27,0.00,0.42,0.73,0.00,1.00,0.58,0.27,0.73,0.73,0.73",29,4.24,"Sitelinks, Video, People also ask, Discussions and forums, Related searches"
+Optics-ai,Informational,40,"0.55,0.77,0.77,1.00,0.77,0.00,1.00,0.00,0.00,0.00,0.00,0.00",15,4.2,"Video, People also ask, Related searches"
+English Literature-ai,Informational,40,"0.48,0.48,0.48,1.00,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48",18,0,"Sitelinks, People also ask, Related searches"
+Financial Accounting-ai,Commercial,30,"0.40,0.40,0.60,0.60,0.40,0.40,0.40,0.40,0.40,0.40,1.00,1.00",31,7.22,"Sitelinks, Reviews, Image pack, People also ask, Related searches"
+Quality Control-ai,Informational,30,"0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,1.00,0.71,0.27",19,7.03,"Reviews, Image pack, Video, People also ask, Related searches"
+Supply Chain Management-ai,Informational,30,"0.03,0.03,0.03,0.03,0.03,0.05,0.03,0.08,0.03,0.06,0.18,1.00",46,12.52,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Related searches"
+Taxation-ai,Commercial,30,"0.09,0.09,0.09,0.09,0.00,0.00,0.00,0.52,0.00,0.00,1.00,0.52",37,4.18,"Video, People also ask, Related searches, Things to know, Ads top, Ads bottom"
+Inflation-ai,,30,"0.18,0.18,0.18,0.81,0.18,0.18,0.18,0.18,0.18,0.18,1.00,0.18",,0,
+Microeconomics-ai,Commercial,30,"0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.64,1.00",3,1.75,"Reviews, Related searches"
+Cryptography-ai,Informational,30,"1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.78,0.00",42,3.4,"Featured snippet, Image, Image pack, Video, People also ask, Related searches"
+Data Security-ai,,30,"0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.57,0.71,1.00",,9.86,
+Electrical Engineering-ai,Informational,30,"0.11,0.11,0.11,0.11,0.11,0.11,0.00,0.11,0.00,1.00,0.11,0.11",11,2.64,"Sitelinks, Reviews, Image pack, Video carousel, People also ask, Discussions and forums, Related searches"
+Business Analytics-ai,"Informational, Commercial",30,"0.42,0.42,0.28,0.57,0.57,0.57,0.42,0.71,0.42,0.28,1.00,0.57",21,9.53,"Reviews, Image pack, Video, People also ask, Related searches"
+Competitive Analysis-ai,,30,"0.18,0.18,0.18,0.18,0.18,0.27,0.27,0.27,0.18,0.18,0.00,1.00",,9.36,
+Investment Banking-ai,,30,"0.00,0.40,0.20,0.40,1.00,1.00,0.40,0.60,0.40,0.20,1.00,0.80",,5.54,
+Marketing Strategy-ai,"Informational, Commercial",30,"0.80,0.60,0.60,0.60,0.40,0.40,0.60,0.60,0.60,0.60,0.60,1.00",42,15.63,"Reviews, People also ask, Discussions and forums, Related searches"
+Search Engine Optimization-ai,"Informational, Commercial",30,"0.18,0.18,0.18,0.18,0.18,0.18,0.45,0.27,0.09,0.00,0.81,1.00",50,7.9,"Sitelinks, Reviews, People also ask, Related searches"
+Venture Capital-ai,Informational,30,"0.00,0.00,0.00,0.04,0.04,0.04,0.04,0.04,0.14,1.00,0.00,0.04",29,3.62,"Sitelinks, Video, People also ask, Top stories, Related searches"
+Acting-ai,,30,"0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11,1.00",,2.65,
+Ballet-ai,Informational,30,"0.18,0.18,0.18,0.18,0.18,0.18,0.18,1.00,0.18,0.18,0.18,0.18",23,0,"Sitelinks, Reviews, Image pack, Video, People also ask, Related searches"
+Cinematography-ai,Informational,30,"0.22,0.22,0.22,0.22,0.22,1.00,0.22,0.22,0.22,0.55,0.77,0.55",32,1.81,"Reviews, Image, Video, People also ask, Related searches"
+Oil Painting-ai,Commercial,30,"0.17,0.37,1.00,0.17,0.17,0.17,0.17,0.37,0.37,0.17,0.17,0.17",6,0.89,"Sitelinks, Reviews, Image, Image pack, Video, Related searches"
+Archaeology-ai,,20,"0.50,0.50,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Cartography-ai,,20,"0.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Discourse Analysis-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00,1.00,0.00,1.00",,0,
+Human Evolution-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Hydrology-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Macroeconomics-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,1.74,
+Remote Sensing-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Urban Planning-ai,,20,"0.14,0.14,0.42,0.28,0.00,0.42,0.00,0.42,0.00,1.00,0.00,0.14",,3.9,
+Botany-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Circuit Analysis-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,2.95,
+Electronics-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,3.5,
+Ethical Hacking-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Incident Response-ai,,20,"0.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,21.96,
+Information Technology-ai,,20,"0.00,0.00,0.40,0.20,0.60,0.00,0.00,1.00,0.80,0.40,0.20,0.80",,5.18,
+Microbiology-ai,,20,"0.66,0.66,0.66,0.66,0.66,0.66,0.66,0.66,0.33,1.00,1.00,1.00",,2.29,
+Network Security-ai,,20,"0.00,1.00,0.09,0.00,0.00,0.00,0.00,0.09,0.00,0.00,0.36,0.00",,11.25,
+Physiology-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,1.62,
+Quantum Physics-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,3.04,
+Signal Processing-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,4.4,
+Statistical Analysis-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,7.32,
+Thermodynamics-ai,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0,
+Globalization-ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.22,0.22",,0,
+Spatial Analysis-ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,1.00",,0,
+Sustainable Development-ai,,10,"0.00,1.00,1.00,1.00,1.00,0.00,0.00,1.00,0.00,1.00,1.00,1.00",,0,
+Analytical Chemistry-ai,,10,"0.50,0.00,0.50,0.00,0.00,0.00,1.00",,0,
+Biochemistry-ai,,10,"0.00,0.00,0.00,0.00,0.50,0.00,0.00,1.00,1.00,1.00,1.00,1.00",,2.3,
+Data Engineering-ai,,10,"0.33,0.66,0.33,0.33,0.66,0.00,0.00,1.00,0.00,0.00,0.66,0.00",,5.46,
+Database Management-ai,,10,"0.50,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00",,11.55,
+Digital Forensics-ai,,10,"1.00,0.50,0.00,0.50,0.50,0.50,0.00,0.00,0.00,0.00,0.50,1.00",,0,
+Ecology-ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,1.00",,0,
+Fluid Mechanics-ai,,10,"0.00,0.00,0.00,1.00,1.00,1.00",,0,
+Genetics-ai,,10,"0.00,0.00,0.25,0.25,0.00,0.00,0.25,0.25,0.00,1.00,0.25,0.25",,3.37,
+Power Systems-ai,,10,"0.00,1.00,0.00,0.00,0.00,1.00,1.00,0.00,1.00,1.00,1.00,1.00",,0,
+Renewable Energy-ai,,10,"0.00,0.00,0.00,0.00,0.00,0.00,0.50,1.00,0.50,0.00,0.50,0.75",,3.17,
+Aerospace Engineering-ai,,0,"0.50,0.50,0.00,0.00,0.00,0.00,0.00,1.00",,0,
+Geophysics-ai,,0,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00",,0,
+Mechatronics-ai,,0,"0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00",,0,
+Telecommunications-ai,,0,"0.00,0.00,0.00,1.00,0.00,0.00,1.00,0.00,1.00,0.00,0.00,0.00",,10.37,

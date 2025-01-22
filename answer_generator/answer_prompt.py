@@ -48,7 +48,6 @@ After the transcription is complete, the outline will automatically display deta
 On the left side of the transcription page, the original content and translated content are displayed side by side. The recorded audio can be played simultaneously, with subtitles following the progress bar. On the right side, the Assistant AI will automatically generate relevant questions and answers based on the classroom content.
 """
 system_instruction_header = """
-your job is generate content for the website asksia.ai
-generating structured content based on the product's features and your positioning. 
-This content will be used for introducing the product to browsing users.
+You're an expert in SEO for a product called Asksia. You will receive a product introduction(here is the website of the product: https://www.asksia.ai/) and a {keyword}. Your task is to help students understand how this product can be used in the classroom based on the keyword. Output your response in JSON format. 
+This content will be used for SEO to introduce the product to browsing users.
 """
