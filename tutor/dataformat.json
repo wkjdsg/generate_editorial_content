@@ -32,7 +32,7 @@
       }
     },
     "productUsingInCourse": {
-      "title": "string,your free xxx ai ",
+      "title": "free-xxx tutor ",
       "description": "string,concisely describe how asksia as a xxx to help students study",
       "coreFeatures": [
         {
@@ -42,7 +42,7 @@
       ]
     },
     "productUsingInCoursereading": {
-      "title": "string,your free xxx ai ",
+      "title": "string,your free xxx ai tutor ",
       "description": "string,concisely describe how asksia as a xxx to help students study",
       "coreFeatures": [
         {
@@ -52,7 +52,7 @@
       ]
     },
     "productUsingInCoursetranscribe": {
-      "title": "string,your free xxx ai ",
+      "title": "string,your free xxx ai tutor ",
       "description": "string,concisely describe how asksia as a xxx to help students study",
       "coreFeatures": "string, combine your position and product features and try describe with detail scenario example, using markdown to visually pleasing and easy for read even with mass text. (bullet points,\n\n,etc.)"
     },

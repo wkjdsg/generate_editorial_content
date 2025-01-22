@@ -48,7 +48,7 @@ After the transcription is complete, the outline will automatically display deta
 On the left side of the transcription page, the original content and translated content are displayed side by side. The recorded audio can be played simultaneously, with subtitles following the progress bar. On the right side, the Assistant AI will automatically generate relevant questions and answers based on the classroom content.
 """
 system_instruction_header = """
-your job is generate seo content for the website asksia.ai
+your job is generate content for the website asksia.ai
 generating structured content based on the product's features and your positioning. 
-This content will be used for SEO to introduce the product to browsing users.
+This content will be used for introducing the product to browsing users.
 """

@@ -1,0 +1,232 @@
+[
+  {
+    "productUsingInCourse": {
+      "title": "AskSia: Your Python Tutor",
+      "description": "AskSia is a free AI tutor specializing in Python, providing in-depth explanations, simplified concepts, answer checks, and visualizations to help students master Python programming.",
+      "coreFeatures": [
+        {
+          "name": "Explain Deeper",
+          "description": "AskSia goes beyond surface-level answers.  It provides layered explanations, progressively revealing deeper insights into Python concepts. For example, if you ask about list comprehensions, AskSia won't just give the definition; it will explain the underlying logic, compare it to traditional loops, show examples with varying complexity, and even discuss performance implications.  This multi-layered approach ensures thorough understanding.\n\n*   **Scenario:** You're struggling with recursive functions. AskSia will not only define recursion but will illustrate it with simple examples, gradually increasing complexity, explaining the call stack, and highlighting common pitfalls.  It will also provide interactive exercises to solidify your understanding."
+        },
+        {
+          "name": "Explain Easier",
+          "description": "AskSia simplifies complex Python topics. It breaks down intricate concepts into easily digestible chunks, using analogies and relatable examples.  It's designed to make learning fun and accessible, even for beginners. \n\n*   **Scenario:**  Understanding decorators in Python can be challenging. AskSia will explain decorators using simple analogies, perhaps comparing them to wrapping a gift. It will then gradually introduce the syntax and show practical examples, making the concept clear and intuitive."
+        },
+        {
+          "name": "Check Answer",
+          "description": "AskSia doesn't just provide answers; it meticulously checks them. It verifies the correctness of your Python code, analyzing aspects such as logic, syntax, and efficiency.  It identifies potential errors and provides detailed feedback to guide your improvement. \n\n*   **Scenario:** You've written a function to sort a list. AskSia will execute your code, check the output against the expected result, and analyze your approach for efficiency.  If there are errors, it will pinpoint the exact line of code and suggest improvements."
+        },
+        {
+          "name": "Visualization",
+          "description": "AskSia uses visualizations to enhance understanding, particularly helpful for visualizing data structures or algorithms.  Images and diagrams make abstract concepts more concrete and easier to grasp.\n\n*   **Scenario:** You're working with binary trees. AskSia will generate a visual representation of the tree, showing nodes, branches, and relationships, making it easier to understand how tree traversal algorithms work."
+        }
+      ]
+    },
+    "courseInfo": {
+      "courseBasicInfo": {
+        "courseTitle": " ",
+        "school": " ",
+        "courseCode": " ",
+        "credits": " ",
+        "semester": " ",
+        "department": " "
+      },
+      "instructorInfo": {
+        "instructorName": " ",
+        "titlePosition": " ",
+        "officeAddress": " ",
+        "officeHours": " ",
+        "contactInfo": {
+          "email": " ",
+          "phone": " "
+        }
+      },
+      "assessmentAndGradingPolicy": {
+        "weightings": {
+          "assignments": " ",
+          "quizzes": " ",
+          "midterm": " ",
+          "final": " ",
+          "projects": " ",
+          "attendance": " "
+        },
+        "assessmentMethods": [
+          " ",
+          " "
+        ]
+      }
+    },
+    "productUsingInCoursereading": {
+      "title": "AskSia: Your Free Python AI Tutor",
+      "description": "AskSia is your AI-powered Python tutor, providing assistance with reading materials and solving Python coding problems.  Upload your documents and code, and let AskSia help you learn!",
+      "coreFeatures": [
+        {
+          "name": "Multiple Document Upload & Management",
+          "description": "Upload and manage multiple PDF documents (up to 5, each up to 20MB and 500 pages). Seamlessly switch between documents while working on your Python assignments. \n\n*   **Scenario:** You're working on a Python project that requires referencing multiple research papers. Upload all PDFs to AskSia and easily switch between them as you code and cite.\n\n"
+        },
+        {
+          "name": "Smart Reference Locking",
+          "description": "Effortlessly navigate your uploaded documents. When referencing material, AskSia automatically jumps to the relevant section within the original text, saving you time and ensuring accuracy. \n\n*   **Scenario:** While coding, you need to refer back to a specific section of a research paper. Using AskSia's reference locking, you can instantly access the correct page, eliminating manual searching.\n\n"
+        },
+        {
+          "name": "Automated Reading Material Summarization",
+          "description": "Quickly grasp the key concepts of your reading materials. AskSia automatically generates summaries of your uploaded PDFs, allowing for efficient review and comprehension. \n\n*   **Scenario:** Before starting your Python assignment, quickly summarize a relevant textbook chapter using AskSia to focus on the key concepts and save time.\n\n"
+        },
+        {
+          "name": "Article Structure Recognition & Outline Generation",
+          "description": "Understand the structure of your reading materials at a glance. AskSia generates an automatic outline of your PDFs, providing a clear overview and allowing quick access to specific sections.  \n\n*   **Scenario:** You need to find a specific algorithm described in a lengthy research paper. Use AskSia's generated outline to quickly locate the relevant section and efficiently integrate the algorithm into your Python code.\n\n"
+        }
+      ]
+    },
+    "productUsingInCoursetranscribe": {
+      "title": "Asksia: Your Free Python Tutor",
+      "description": "Asksia helps students learn Python through interactive exercises, code explanations, and personalized feedback.",
+      "coreFeatures": "* **Interactive Python Exercises:** Practice Python concepts with interactive coding challenges tailored to your skill level.\n\n* **AI-Powered Code Assistance:** Get instant feedback on your code, identify errors, and receive suggestions for improvement.\n\n* **Personalized Learning Paths:** Asksia adapts to your learning style and pace, providing customized learning paths to master Python.\n\n* **Step-by-Step Explanations:** Understand complex Python concepts with clear, concise explanations and visual aids.  For example, if you're struggling with loops, Asksia will break down the concept with examples and interactive exercises, allowing you to practice until you grasp the core principles.\n\n* **Community Support:** Connect with other Python learners, share your progress, and ask questions in our supportive community forum.\n\n* **Progress Tracking:** Monitor your learning progress and identify areas where you need more practice.  You'll see a clear visualization of your skills improving over time, motivating you to continue learning.\n\n* **Real-World Applications:** Learn how to apply Python to solve real-world problems through practical projects and case studies. For instance, you might build a simple game or data analysis tool, applying the concepts you've learned in a tangible way."
+    },
+    "FAQ": [
+      {
+        "question": "What are the key features of Asksia AI for solving Python-related problems?",
+        "answer": "Asksia AI, positioned as a Python-solver for students, offers several key features to aid in problem-solving.  These include:  1. **Explain Deeper:** Provides in-depth, layered explanations of Python concepts and code solutions. 2. **Explain Easier:** Simplifies complex Python topics and code into easy-to-understand explanations. 3. **Check Answer:** Analyzes Python code solutions for correctness of calculations and logic, and completeness of the answer. 4. **Visualization:** Generates visual aids (where applicable) to help understand Python code and data structures."
+      },
+      {
+        "question": "How does Asksia AI's 'Explain Deeper' feature help students with Python?",
+        "answer": "The 'Explain Deeper' feature goes beyond simple answers. For Python problems, it provides progressively more detailed explanations of the code's logic, algorithms used, and underlying concepts.  This layered approach helps students build a strong understanding of the solution, rather than just getting the correct answer."
+      },
+      {
+        "question": "How does Asksia AI's 'Explain Easier' feature benefit students learning Python?",
+        "answer": "The 'Explain Easier' feature is designed to break down complex Python code and concepts into simpler, more accessible terms.  It helps students grasp difficult topics by providing clear, concise explanations that are easier to understand, especially for beginners."
+      },
+      {
+        "question": "What role does the 'Check Answer' feature play in Python problem-solving with Asksia AI?",
+        "answer": "The 'Check Answer' feature acts as a verification tool.  It analyzes the student's Python code solutions, checking for correctness in calculations, logical errors, and the overall completeness of the solution. This helps students identify and fix mistakes in their code."
+      },
+      {
+        "question": "Can Asksia AI help with visualizing Python code or data structures?",
+        "answer": "Yes, the 'Visualization' feature can generate images to support understanding of Python code or data structures. This is particularly beneficial for problems involving graphs, data visualizations, or other concepts that are better understood visually."
+      },
+      {
+        "question": "Does Asksia AI support multiple programming languages besides Python?",
+        "answer": "Based on the current information, Asksia AI's focus is on helping students with Python-related problems. Support for other programming languages is not explicitly mentioned."
+      }
+    ]
+  },
+  {
+    "productUsingInCourse": {
+      "title": "Chemistry Solver: AskSia.ai",
+      "description": "AskSia.ai is your AI-powered Chemistry tutor. Get in-depth explanations, simplified concepts, and accurate answer checks for all your Chemistry questions.",
+      "coreFeatures": [
+        {
+          "name": "Explain Deeper",
+          "description": "Uncover the intricacies of Chemistry with AskSia's layered explanations.  We go beyond surface-level answers, providing progressively deeper insights to solidify your understanding. For example, if you ask about the process of electrolysis, AskSia won't just give you the definition. It will break down the steps, explain the underlying chemical reactions, and even explore real-world applications like industrial metal extraction.  \n\n* Step-by-step breakdown of complex processes\n* Detailed explanations of chemical reactions\n* Exploration of real-world applications"
+        },
+        {
+          "name": "Explain Easier",
+          "description": "Struggling with complex Chemistry concepts? AskSia simplifies them! We break down complicated topics into easily digestible pieces, making learning more accessible and enjoyable.  Let's say you're facing difficulties with organic chemistry nomenclature. AskSia will not only explain the rules but also provide clear examples and practice problems to help you master it. \n\n* Simplified explanations of complex topics\n* Clear and concise language\n* Easy-to-follow examples and practice problems"
+        },
+        {
+          "name": "Check Answer",
+          "description": "Ensure accuracy with AskSia's answer-checking feature. We meticulously examine your answers, verifying the correctness of calculations, logic, and completeness.  For instance, if you're solving a stoichiometry problem, AskSia will check your calculations, ensure your units are consistent, and verify the accuracy of your final answer, providing feedback where necessary.\n\n* Verification of calculations\n* Assessment of logical reasoning\n* Evaluation of answer completeness"
+        },
+        {
+          "name": "Visualization",
+          "description": "Visual learning is key! AskSia generates relevant images to enhance understanding, particularly helpful for visual learners and complex concepts.  If you're studying molecular structures, AskSia will create 3D models to help you visualize the arrangement of atoms.  This feature is perfect for understanding complex structures and reactions in organic chemistry and other visual-heavy branches of the field.\n\n* Generation of relevant images\n* 3D models for molecular structures\n* Visual aids for complex concepts"
+        }
+      ]
+    },
+    "courseInfo": {
+      "courseBasicInfo": {
+        "courseTitle": " ",
+        "school": " ",
+        "courseCode": " ",
+        "credits": " ",
+        "semester": " ",
+        "department": " "
+      },
+      "instructorInfo": {
+        "instructorName": " ",
+        "titlePosition": " ",
+        "officeAddress": " ",
+        "officeHours": " ",
+        "contactInfo": {
+          "email": " ",
+          "phone": " "
+        }
+      },
+      "assessmentAndGradingPolicy": {
+        "weightings": {
+          "assignments": " ",
+          "quizzes": " ",
+          "midterm": " ",
+          "final": " ",
+          "projects": " ",
+          "attendance": " "
+        },
+        "assessmentMethods": [
+          " ",
+          " "
+        ]
+      }
+    },
+    "productUsingInCoursereading": {
+      "title": "Your Free AI Chemistry Tutor",
+      "description": "AskSia: Get instant chemistry help, solve problems step-by-step, and master chemistry concepts with our free AI tutor.",
+      "coreFeatures": [
+        {
+          "name": "Multiple Problem Upload",
+          "description": "Upload various chemistry problems (up to 5) in image format (jpg, png, etc.) to get AI-powered solutions. Each image should be less than 20MB.  \n\n*   **Scenario:**  Stuck on a complex equilibrium problem? Upload the image of the problem to AskSia.  \n*   **AskSia's Response:** AskSia will analyze the problem, provide a step-by-step solution, and explain the underlying chemical principles. You can upload multiple problems at once and switch between them as needed.\n\n"
+        },
+        {
+          "name": "Step-by-Step Solutions",
+          "description": "AskSia doesn't just give you the answer; it shows you *how* to get there.  Our AI provides detailed, step-by-step solutions, breaking down complex problems into manageable parts. \n\n*   **Scenario:**  Confused about the process of balancing redox reactions? AskSia will guide you through each step, explaining the rules and logic behind each action. \n*   **AskSia's Response:**  You'll receive a clear, easy-to-follow solution, enhancing your understanding of the concept and improving your problem-solving skills.  \n\n"
+        },
+        {
+          "name": "AI-Powered Explanations",
+          "description": "Get more than just answers – get explanations! AskSia's AI provides clear explanations of the chemical principles behind each problem and solution. \n\n*   **Scenario:**  Struggling to understand the concept of molarity? Upload a problem involving molarity calculations. \n*   **AskSia's Response:**  AskSia will not only solve the problem but also explain the concept of molarity in detail, including its definition, formula, and applications.\n\n"
+        },
+        {
+          "name": "Concept Reinforcement",
+          "description": "Reinforce your learning by reviewing the concepts covered in the problems you've solved. AskSia helps you connect the dots and build a strong foundation in chemistry. \n\n*   **Scenario:**  Solved multiple problems on stoichiometry. \n*   **AskSia's Response:**  AskSia can provide a summary of the key stoichiometry concepts used in the solved problems, helping you to solidify your understanding of the topic.\n\n"
+        }
+      ]
+    },
+    "productUsingInCoursetranscribe": {
+      "title": "Asksia: Your Free AI Chemistry Tutor",
+      "description": "Asksia is your AI-powered chemistry tutor that helps you master chemistry concepts through interactive learning and personalized feedback.",
+      "coreFeatures": "## Asksia: Your AI-Powered Chemistry Tutor\n\nAsksia helps you conquer chemistry with its AI-powered features. Whether you're struggling with balancing equations or understanding complex reactions, Asksia is here to help.  Here's how:\n\n### 1. Transcribe Classroom Recordings and Ace Chemistry Lectures\n\n*   **Upload & Transcribe:** Easily upload your chemistry lecture recordings (MP4, WAV, etc.) and Asksia will transcribe them into text, generating multilingual subtitles.  This ensures you capture every detail, even if you miss something in class.\n*   **Smart Outline & Keyword Extraction:**  Asksia automatically creates a detailed outline, highlighting key concepts, keywords, and important sentences. This helps you focus on the most crucial parts of the lecture. \n*   **Dual-Screen Interaction:** Review the transcription alongside the original audio.  See the translated version side-by-side for easier understanding.  \n*   **AI-Powered Q&A:**  An AI assistant generates relevant questions and answers based on the lecture content, allowing you to test your understanding and identify areas needing further review. This interactive feature makes learning more engaging and effective. \n\n**Example:** You upload a lecture on stoichiometry. Asksia transcribes it, provides a smart outline highlighting key terms like 'mole ratio' and 'limiting reactant', and then presents you with AI-generated questions to test your knowledge, such as 'What is the limiting reactant in this reaction?' and 'How many moles of product are formed?'\n\n### 2.  Chemistry Problem-Solving Made Easy\n\n(Add features here related to solving chemistry problems.  For example: step-by-step solutions, equation balancing assistance, etc.  Expand on how these features help students understand the underlying concepts.)\n\n**Example:** You're stuck on a complex equilibrium problem. Asksia provides a step-by-step solution, explaining each calculation and concept involved, so you not only get the right answer but also understand *why* it's correct.\n\n### 3. Personalized Learning Experience\n\n(Add features here related to personalized feedback and adaptive learning. For example: tracking progress, identifying weak areas, recommending relevant resources, etc.)\n\n**Example:** Asksia tracks your progress on different chemistry topics.  If it detects you're struggling with redox reactions, it provides additional resources and practice problems tailored to help you improve in that specific area."
+    },
+    "FAQ": [
+      {
+        "question": "What are the key features of Asksia.ai for Chemistry problem-solving?",
+        "answer": "Asksia.ai offers several features designed to help students solve chemistry problems.  These include:\n\n1. **Explain Deeper:** Provides layered explanations to enhance understanding of complex chemical concepts.\n2. **Explain Easier:** Simplifies complicated chemistry topics, making them more accessible.\n3. **Check Answer:**  Analyzes answers for correctness of calculations and logic, ensuring completeness.\n4. **Visualization:** Generates images to help visualize chemical structures, reactions, and processes."
+      },
+      {
+        "question": "How does Asksia.ai's 'Explain Deeper' feature work in a Chemistry context?",
+        "answer": "'Explain Deeper' in Asksia.ai for chemistry would provide progressively more detailed explanations of a chemical concept or problem. For example, if a student asks about stoichiometry, the initial explanation might cover basic mole ratios. Subsequent explanations could delve into limiting reactants, percent yield, and more advanced applications."
+      },
+      {
+        "question": "Can Asksia.ai help with Chemistry calculations?",
+        "answer": "Yes, Asksia.ai's 'Check Answer' feature can help verify the accuracy of chemistry calculations.  It checks for correct application of formulas, proper unit conversions, and logical steps in the solution process."
+      },
+      {
+        "question": "How does visualization benefit Chemistry students using Asksia.ai?",
+        "answer": "The visualization feature is particularly useful for chemistry, where visual representations of molecules, reactions, and processes are crucial for understanding.  Asksia.ai could generate images of molecular structures, reaction mechanisms, or graphs to illustrate chemical data."
+      },
+      {
+        "question": "What types of Chemistry problems can Asksia.ai assist with?",
+        "answer": "Asksia.ai can potentially assist with a wide range of chemistry problems, including stoichiometry, equilibrium, kinetics, thermodynamics, and more.  The specific capabilities depend on the complexity of the problem and the clarity of the user's input."
+      },
+      {
+        "question": "Does Asksia.ai provide step-by-step solutions for Chemistry problems?",
+        "answer": "While not explicitly stated as 'step-by-step,' the 'Explain Deeper' and 'Check Answer' features work together to provide a thorough analysis of the problem-solving process, effectively guiding the student through the solution."
+      },
+      {
+        "question": "Is Asksia.ai limited to specific areas within Chemistry?",
+        "answer": "While the exact scope isn't specified, Asksia.ai's features suggest it can handle various chemistry topics. However, extremely specialized or advanced topics might have limitations."
+      },
+      {
+        "question": "How can I use Asksia.ai to improve my understanding of a complex Chemistry concept?",
+        "answer": "To improve your understanding, clearly state the concept you're struggling with. Use Asksia.ai's 'Explain Easier' and 'Explain Deeper' features to gain a comprehensive grasp, and use 'Check Answer' to test your understanding by working through practice problems."
+      }
+    ]
+  }
+]
