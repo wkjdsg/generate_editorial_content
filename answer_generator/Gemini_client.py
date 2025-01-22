@@ -6,7 +6,9 @@ from google.api_core import retry
 from typing import Optional, Dict, Any, List
 import json
 
-    
+# 加载环境变量
+load_dotenv()
+
 class GeminiClient:
     """Gemini API 客户端封装类
     
@@ -125,7 +127,6 @@ class GeminiClient:
     def _initialize_api(self) -> None:
         """初始化 Gemini API 和模型"""
         try:
-            load_dotenv()
             api_key = self._get_api_key()
             genai.configure(api_key=api_key)
             self.model = genai.GenerativeModel(
