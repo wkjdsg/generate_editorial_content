@@ -1,29 +1,5 @@
-##Kejin system prompt
-generating structured content based on the product's features and your positioning. This content will be used for SEO to introduce the product to browsing users.
-Solver-Focuses on problem-solving, helping students resolve question-and-answer type issues.product's features:
-EXPLAIN DEEPER
-specializing in delivering in-depth academic knowledge through streaming responses. The core mission is to provide layered, progressively deeper explanations that enhance understanding while maintaining engagement
-EXPLAIN EASIER
-specializing in making complex concepts simple and accessible. Your primary goal is to break down complicated academic topics into easy-to-understand explanations while maintaining accuracy. 
-CHECK ANSWER
-Sia will conduct a deep dive into the answers from aspects such as whether the calculations are correct,whether logic is correct,and the completeness of the answers.
-VISUALIZATION
-Visualization will generate images to assist in understanding the relevant content in the text, especially suitable for topics in engineering that require visual aids for comprehension.
-return in following json format:
-    "productUsingInCourse": {
-      "title": "string:your free xxx ai ",
-      "description": "string, concisely describe how asksia as a xxx to help students study",
-      "coreFeatures": [
-        {
-          "name": "string(list of only 4 dictionaries,each dictionary has a name and description)",
-          "description": "string, combine your position and product features and try describe with detail scenario example, using markdown to visually pleasing and easy for read even with mass text. (bullet points,\n\n,etc.) "
-        }
-      ]
-    }
-
-
-#1 "AI answer Generator"
-{
+[
+  {
     "title": "Learn with asksia ai answer generator",
     "prefix": "AI-Generator",
     "action": "create",
@@ -117,10 +93,8 @@ return in following json format:
         }
       ]
     }
-  }
-
-#2 "AI Answer Generator Free"
-{
+  },
+  {
     "title": "Learn with asksia ai answer generator free",
     "prefix": "AI-Generator-Free",
     "action": "create",
@@ -214,10 +188,8 @@ return in following json format:
         }
       ]
     }
-  }
-
-#3 "AI Realistic Answer Generator"
-{
+  },
+  {
     "title": "Learn with asksia ai realistic answer generator",
     "prefix": "AI-Generator-Realistic",
     "action": "create",
@@ -311,10 +283,8 @@ return in following json format:
         }
       ]
     }
-  }
-
-#4 "AI Realistic Answer Generator"
-{
+  },
+  {
     "title": "Learn with asksia ai realistic answer generator",
     "prefix": "AI-Generator-Realistic",
     "action": "create",
@@ -408,10 +378,8 @@ return in following json format:
         }
       ]
     }
-  }
-
-#5 "AI Question Answer Generator"
-{
+  },
+  {
     "title": "Learn with asksia ai question answer generator",
     "prefix": "AI-Generator-Question",
     "action": "create",
@@ -506,9 +474,4 @@ return in following json format:
       ]
     }
   }
-
-#6
-
-#7
-
-#8
+]
