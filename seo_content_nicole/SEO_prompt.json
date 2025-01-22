@@ -1,0 +1,514 @@
+##Kejin system prompt
+generating structured content based on the product's features and your positioning. This content will be used for SEO to introduce the product to browsing users.
+Solver-Focuses on problem-solving, helping students resolve question-and-answer type issues.product's features:
+EXPLAIN DEEPER
+specializing in delivering in-depth academic knowledge through streaming responses. The core mission is to provide layered, progressively deeper explanations that enhance understanding while maintaining engagement
+EXPLAIN EASIER
+specializing in making complex concepts simple and accessible. Your primary goal is to break down complicated academic topics into easy-to-understand explanations while maintaining accuracy. 
+CHECK ANSWER
+Sia will conduct a deep dive into the answers from aspects such as whether the calculations are correct,whether logic is correct,and the completeness of the answers.
+VISUALIZATION
+Visualization will generate images to assist in understanding the relevant content in the text, especially suitable for topics in engineering that require visual aids for comprehension.
+return in following json format:
+    "productUsingInCourse": {
+      "title": "string:your free xxx ai ",
+      "description": "string, concisely describe how asksia as a xxx to help students study",
+      "coreFeatures": [
+        {
+          "name": "string(list of only 4 dictionaries,each dictionary has a name and description)",
+          "description": "string, combine your position and product features and try describe with detail scenario example, using markdown to visually pleasing and easy for read even with mass text. (bullet points,\n\n,etc.) "
+        }
+      ]
+    }
+
+
+#1 "AI answer Generator"
+{
+    "title": "Learn with asksia ai answer generator",
+    "prefix": "AI-Generator",
+    "action": "create",
+    "content": {
+      "courseInfo": {
+        "instructorInfo": {
+          "contactInfo": {
+            "email": "",
+            "phone": ""
+          },
+          "officeHours": "",
+          "officeAddress": "",
+          "titlePosition": "",
+          "instructorName": ""
+        },
+        "courseBasicInfo": {
+          "school": "",
+          "credits": "",
+          "semester": "",
+          "courseCode": "",
+          "department": "",
+          "courseTitle": ""
+        },
+        "assessmentAndGradingPolicy": {
+          "weightings": {
+            "final": "",
+            "midterm": "",
+            "quizzes": "",
+            "projects": "",
+            "attendance": "",
+            "assignments": ""
+          },
+          "assessmentMethods": [
+            ""
+          ]
+        }
+      },
+      "productUsingInCourse": {
+        "title": "Asksia - ai answer generator",
+        "description": "Asksia AI Qsolver helps students generate answers for various assignments, improving their understanding of concepts and boosting their problem-solving skills by providing different approaches.",
+        "coreFeatures": [
+          {
+            "name": "Explain Deeper",
+            "description": "Asksia AI Qsolver allows students to explore complex ai answer generator questions by providing detailed explanations and multiple perspectives, leading to a more thorough understanding."
+          },
+          {
+            "name": "Explain Easier",
+            "description": "Asksia AI Qsolver simplifies the process of generating ai answers by breaking down complex problems into smaller, manageable steps, making it easier for students to grasp."
+          },
+          {
+            "name": "Check Answer",
+            "description": "Students can use Asksia AI Qsolver to verify the accuracy of their generated answers, ensuring they are on the right track and identifying any misconceptions."
+          },
+          {
+            "name": "Visualization",
+            "description": "While Asksia AI Qsolver doesn't directly create visualizations, it can help students understand concepts better by providing clearer explanations which could then be used to create their own visuals."
+          }
+        ]
+      },
+      "productUsingInCoursereading": {
+        "title": "",
+        "description": "",
+        "coreFeatures": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      "productUsingInCoursetranscribe": {
+        "title": "",
+        "description": "",
+        "coreFeatures": ""
+      },
+      "FAQ": [
+        {
+          "question": "What is Qsolver?",
+          "answer": "Focuses on problem-solving, helping students resolve question-and-answer type issues, with four features including explain deeper, explain easier, check answer and visualisation."
+        }
+      ]
+    }
+  }
+
+#2 "AI Answer Generator Free"
+{
+    "title": "Learn with asksia ai answer generator free",
+    "prefix": "AI-Generator-Free",
+    "action": "create",
+    "content": {
+      "courseInfo": {
+        "instructorInfo": {
+          "contactInfo": {
+            "email": "",
+            "phone": ""
+          },
+          "officeHours": "",
+          "officeAddress": "",
+          "titlePosition": "",
+          "instructorName": ""
+        },
+        "courseBasicInfo": {
+          "school": "",
+          "credits": "",
+          "semester": "",
+          "courseCode": "",
+          "department": "",
+          "courseTitle": ""
+        },
+        "assessmentAndGradingPolicy": {
+          "weightings": {
+            "final": "",
+            "midterm": "",
+            "quizzes": "",
+            "projects": "",
+            "attendance": "",
+            "assignments": ""
+          },
+          "assessmentMethods": [
+            ""
+          ]
+        }
+      },
+      "productUsingInCourse": {
+        "title": "Asksia - AI Answer Generator Free",
+        "description": "Asksia AI Qsolver provides free access to powerful tools that help students master AI answer generation, emphasizing in-depth explanations, simplified concepts, and answer verification.",
+        "coreFeatures": [
+          {
+            "name": "Explain Deeper",
+            "description": "Even with free access, Asksia delivers layered explanations. For example, if you're using a free AI essay writing tool and don't understand why it chose a particular sentence structure, Asksia can explain the grammar rules and stylistic choices involved. This helps you learn *why* the AI made those choices, not just what the choices were."
+          },
+          {
+            "name": "Explain Easier",
+            "description": "Understanding complex free AI models can be challenging. Asksia simplifies the learning process. If you're using a free AI summarizer and don't understand how it shortens text, Asksia can break down the process of identifying key sentences and phrases, making the technology more transparent and understandable."
+          },
+          {
+            "name": "Check Answer",
+            "description": "While free, Asksia's answer verification is thorough.  It checks your AI-generated essays for plagiarism, grammatical errors, and logical consistency, ensuring the quality of your work even when using free resources.  It's like having a free proofreader and fact-checker."
+          },
+          {
+            "name": "Visualization",
+            "description": "Asksia enhances the free learning experience with visuals. If your AI tool generates a graph, Asksia can create additional charts to illustrate the data, making complex information easier to interpret. This added visual context improves your overall understanding."
+          }
+        ]
+      },
+      "productUsingInCoursereading": {
+        "title": "",
+        "description": "",
+        "coreFeatures": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      "productUsingInCoursetranscribe": {
+        "title": "",
+        "description": "",
+        "coreFeatures": ""
+      },
+      "FAQ": [
+        {
+          "question": "What is Qsolver?",
+          "answer": "Focuses on problem-solving, helping students resolve question-and-answer type issues, with four features including explain deeper, explain easier, check answer and visualisation."
+        }
+      ]
+    }
+  }
+
+#3 "AI Realistic Answer Generator"
+{
+    "title": "Learn with asksia ai realistic answer generator",
+    "prefix": "AI-Generator-Realistic",
+    "action": "create",
+    "content": {
+      "courseInfo": {
+        "instructorInfo": {
+          "contactInfo": {
+            "email": "",
+            "phone": ""
+          },
+          "officeHours": "",
+          "officeAddress": "",
+          "titlePosition": "",
+          "instructorName": ""
+        },
+        "courseBasicInfo": {
+          "school": "",
+          "credits": "",
+          "semester": "",
+          "courseCode": "",
+          "department": "",
+          "courseTitle": ""
+        },
+        "assessmentAndGradingPolicy": {
+          "weightings": {
+            "final": "",
+            "midterm": "",
+            "quizzes": "",
+            "projects": "",
+            "attendance": "",
+            "assignments": ""
+          },
+          "assessmentMethods": [
+            ""
+          ]
+        }
+      },
+      "productUsingInCourse": {
+        "title": "Asksia - AI Realistic Answer Generator",
+        "description": "Asksia AI Qsolver helps students create realistic AI-generated answers by providing in-depth explanations, simplifying complex concepts, verifying answer accuracy, and offering helpful visualizations to ensure high-quality output.",
+        "coreFeatures": [
+          {
+            "name": "Explain Deeper",
+            "description": "Generating realistic answers requires understanding the nuances of language and context. Asksia's 'Explain Deeper' feature helps you understand why an AI might choose a specific word or phrase to make the text more convincing and natural-sounding, going beyond simply generating text."
+          },
+          {
+            "name": "Explain Easier",
+            "description": "Complex concepts like natural language processing (NLP) can be challenging. Asksia breaks down these topics into simpler terms and provides examples to demonstrate how an AI can mimic human writing styles, such as creating a convincing character voice in a story."
+          },
+          {
+            "name": "Check Answer",
+            "description": "Asksia carefully evaluates the realism of your AI-generated story.  It checks for inconsistencies in character behavior, unnatural dialogue, and plot holes. This feedback helps refine your approach to create more believable stories."
+          },
+          {
+            "name": "Visualization",
+            "description": "Visualizing the structure of your story can be very helpful. Asksia's visualization feature can create a plot timeline or character relationship chart to illustrate your narrative, enhancing the understanding of your story's development."
+          }
+        ]
+      },
+      "productUsingInCoursereading": {
+        "title": "",
+        "description": "",
+        "coreFeatures": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      "productUsingInCoursetranscribe": {
+        "title": "",
+        "description": "",
+        "coreFeatures": ""
+      },
+      "FAQ": [
+        {
+          "question": "What is Qsolver?",
+          "answer": "Focuses on problem-solving, helping students resolve question-and-answer type issues, with four features including explain deeper, explain easier, check answer and visualisation."
+        }
+      ]
+    }
+  }
+
+#4 "AI Realistic Answer Generator"
+{
+    "title": "Learn with asksia ai realistic answer generator",
+    "prefix": "AI-Generator-Realistic",
+    "action": "create",
+    "content": {
+      "courseInfo": {
+        "instructorInfo": {
+          "contactInfo": {
+            "email": "",
+            "phone": ""
+          },
+          "officeHours": "",
+          "officeAddress": "",
+          "titlePosition": "",
+          "instructorName": ""
+        },
+        "courseBasicInfo": {
+          "school": "",
+          "credits": "",
+          "semester": "",
+          "courseCode": "",
+          "department": "",
+          "courseTitle": ""
+        },
+        "assessmentAndGradingPolicy": {
+          "weightings": {
+            "final": "",
+            "midterm": "",
+            "quizzes": "",
+            "projects": "",
+            "attendance": "",
+            "assignments": ""
+          },
+          "assessmentMethods": [
+            ""
+          ]
+        }
+      },
+      "productUsingInCourse": {
+        "title": "Asksia - AI Realistic Answer Generator",
+        "description": "Asksia AI Qsolver helps students create realistic AI-generated answers by providing in-depth explanations, simplifying complex concepts, verifying answer accuracy, and offering helpful visualizations to ensure high-quality output.",
+        "coreFeatures": [
+          {
+            "name": "Explain Deeper",
+            "description": "Generating realistic answers requires understanding the nuances of language and context. Asksia's 'Explain Deeper' feature helps you understand why an AI might choose a specific word or phrase to make the text more convincing and natural-sounding, going beyond simply generating text."
+          },
+          {
+            "name": "Explain Easier",
+            "description": "Complex concepts like natural language processing (NLP) can be challenging. Asksia breaks down these topics into simpler terms and provides examples to demonstrate how an AI can mimic human writing styles, such as creating a convincing character voice in a story."
+          },
+          {
+            "name": "Check Answer",
+            "description": "Asksia carefully evaluates the realism of your AI-generated story.  It checks for inconsistencies in character behavior, unnatural dialogue, and plot holes. This feedback helps refine your approach to create more believable stories."
+          },
+          {
+            "name": "Visualization",
+            "description": "Visualizing the structure of your story can be very helpful. Asksia's visualization feature can create a plot timeline or character relationship chart to illustrate your narrative, enhancing the understanding of your story's development."
+          }
+        ]
+      },
+      "productUsingInCoursereading": {
+        "title": "",
+        "description": "",
+        "coreFeatures": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      "productUsingInCoursetranscribe": {
+        "title": "",
+        "description": "",
+        "coreFeatures": ""
+      },
+      "FAQ": [
+        {
+          "question": "What is Qsolver?",
+          "answer": "Focuses on problem-solving, helping students resolve question-and-answer type issues, with four features including explain deeper, explain easier, check answer and visualisation."
+        }
+      ]
+    }
+  }
+
+#5 "AI Question Answer Generator"
+{
+    "title": "Learn with asksia ai question answer generator",
+    "prefix": "AI-Generator-Question",
+    "action": "create",
+    "content": {
+      "courseInfo": {
+        "instructorInfo": {
+          "contactInfo": {
+            "email": "",
+            "phone": ""
+          },
+          "officeHours": "",
+          "officeAddress": "",
+          "titlePosition": "",
+          "instructorName": ""
+        },
+        "courseBasicInfo": {
+          "school": "",
+          "credits": "",
+          "semester": "",
+          "courseCode": "",
+          "department": "",
+          "courseTitle": ""
+        },
+        "assessmentAndGradingPolicy": {
+          "weightings": {
+            "final": "",
+            "midterm": "",
+            "quizzes": "",
+            "projects": "",
+            "attendance": "",
+            "assignments": ""
+          },
+          "assessmentMethods": [
+            ""
+          ]
+        }
+      },
+      "productUsingInCourse": {
+        "title": "Asksia - AI Question Answer Generator",
+        "description": "Asksia AI Qsolver helps students master AI question-answer generation by offering detailed explanations, simplifying complex concepts, verifying answer accuracy, and providing helpful visualizations.",
+        "coreFeatures": [
+          {
+            "name": "Explain Deeper",
+            "description": "Asksia delves into the process of how an AI answers questions. If your AI incorrectly answers a history question, Asksia can explain why the AI made that mistake, perhaps pointing to missing information in its training data or a flaw in its reasoning."
+          },
+          {
+            "name": "Explain Easier",
+            "description": "Asksia simplifies complex topics like information retrieval and natural language understanding, making them easier to grasp for students. Imagine trying to understand how an AI searches for information; Asksia breaks it down into steps, making the process clear and understandable."
+          },
+          {
+            "name": "Check Answer",
+            "description": "Asksia meticulously reviews the quality of your generated answers. It checks for factual accuracy, completeness, and coherence, ensuring that your AI system provides high-quality responses to various questions, verifying answers against known reliable sources."
+          },
+          {
+            "name": "Visualization",
+            "description": "Understanding how an AI arrives at an answer can be complex. Asksia's visualizations might show the different sources of information the AI considered before forming its answer, providing a visual roadmap of the decision-making process."
+          }
+        ]
+      },
+      "productUsingInCoursereading": {
+        "title": "",
+        "description": "",
+        "coreFeatures": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      "productUsingInCoursetranscribe": {
+        "title": "",
+        "description": "",
+        "coreFeatures": ""
+      },
+      "FAQ": [
+        {
+          "question": "What is Qsolver?",
+          "answer": "Focuses on problem-solving, helping students resolve question-and-answer type issues, with four features including explain deeper, explain easier, check answer and visualisation."
+        }
+      ]
+    }
+  }
+
+#6
+
+#7
+
+#8
