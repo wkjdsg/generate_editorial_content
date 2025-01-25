@@ -172,3 +172,4 @@ cython_debug/
 
 # Application specific logs
 seo_generation.log
+upload_data.log

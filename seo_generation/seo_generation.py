@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import os
 from GeminiClient import GeminiClient
-from tutor_prompt import course_info,product_using,product_reading,product_transcribe,faq,reading,solver,transcribe,system_instruction_header
+from seo_generation.example_tutor_prompt import course_info,product_using,product_reading,product_transcribe,faq,reading,solver,transcribe,system_instruction_header
 import logging
 from typing import List, Dict
 from pathlib import Path
@@ -63,7 +63,7 @@ def load_templates() -> Dict[str, List[str]]:
         "product_intro_list": [solver, reading, transcribe, solver+reading+transcribe+'return just a list of dictionaries,each dictionary has a question and answer']
     }
 
-def add_course_dict(responses_dict):
+def add_dict(responses_dict,add_dict = None):
     default_course_structure = {
         "courseInfo": {
             "courseBasicInfo": {
@@ -97,8 +97,10 @@ def add_course_dict(responses_dict):
             }
         }
     }
-    
-    responses_dict.update(default_course_structure)
+    if add_dict is not None:
+        responses_dict.update(add_dict)
+    else:
+        responses_dict.update(default_course_structure)
     return responses_dict
 
 def pause_after_iterations(iteration_count, pause_interval=4, pause_duration=60):
@@ -229,7 +231,7 @@ def generate_seo_content(key_words_list: List[str]) -> List[Dict]:
                         logging.info(success_msg)
                         print(success_msg)
                         responses_dict.update({current_key: response_json})
-                        responses_dict = add_course_dict(responses_dict)
+                        responses_dict = add_dict(responses_dict)
                         break
                         
                     except Exception as e:
