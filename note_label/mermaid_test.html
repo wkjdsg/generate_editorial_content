@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mermaid 可视化接口 SSE 测试页面</title>
+  <!-- 使用稳定的 Mermaid 版本（这里使用 8.13.10 版） -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.10/dist/mermaid.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    textarea { width: 100%; height: 80px; }
+    pre, #diagram {
+      background: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+      white-space: pre-wrap;
+    }
+    h2 { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Mermaid 可视化接口 SSE 测试</h1>
+  <p>
+    输入 Mermaid 描述（例如：<br>
+    绘制一个用户注册流程的流程图。）
+  </p>
+  <textarea id="inputText">绘制一个用户注册流程的流程图。</textarea>
+  <br>
+  <button id="sendBtn">发送请求</button>
+  <hr>
+  <h2>响应事件</h2>
+  <pre id="output"></pre>
+  <h2>生成的 Mermaid 图形</h2>
+  <div id="diagram"></div>
+
+  <script>
+    // 初始化 Mermaid（旧版本通常不需要过多配置）
+    mermaid.initialize({ startOnLoad: false });
+
+    document.getElementById("sendBtn").addEventListener("click", function () {
+      const output = document.getElementById("output");
+      const diagramContainer = document.getElementById("diagram");
+      // 清空展示区
+      output.textContent = "";
+      diagramContainer.innerHTML = "";
+
+      const text = document.getElementById("inputText").value;
+      // 请根据实际接口地址修改 URL，如果是跨域请求记得处理 CORS
+      const url = "https://mlsupertestdv.asksia.ai/visual/mermaid"; // 本地测试：http://localhost:8088/visual/mermaid
+      //const url = "http://localhost:8088/visual/mermaid";
+      fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ text: text })
+      }).then(response => {
+        // 使用 response.body.getReader() 读取流
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder("utf-8");
+        let buffer = "";
+
+        function read() {
+          reader.read().then(({ done, value }) => {
+            if (done) {
+              output.textContent += "\n[流结束]";
+              return;
+            }
+
+            buffer += decoder.decode(value, { stream: true });
+            // SSE 事件之间默认用两个换行分隔
+            let parts = buffer.split("\n\n");
+            // 保留最后一部分（可能未完整）
+            buffer = parts.pop();
+
+            parts.forEach(eventText => {
+              if (eventText.trim()) {
+                let eventType = "";
+                let dataStr = "";
+
+                // SSE 格式通常每行以 "event:" 或 "data:" 开头
+                eventText.split("\n").forEach(line => {
+                  if (line.startsWith("event:")) {
+                    eventType = line.substring(6).trim();
+                  } else if (line.startsWith("data:")) {
+                    // 累加 data 行文本（若多行 data，则拼接）
+                    dataStr += line.substring(5).trim();
+                  }
+                });
+
+                if (!dataStr) return;
+                try {
+                  const jsonObj = JSON.parse(dataStr);
+                  // 如果 SSE 头部中设置了 event，则也将其合并到对象中
+                  if (eventType && !jsonObj.type) {
+                    jsonObj.type = eventType;
+                  }
+                  processEvent(jsonObj);
+                  output.textContent += JSON.stringify(jsonObj, null, 2) + "\n";
+                } catch (e) {
+                  output.textContent += "解析 SSE 数据时出错: " + dataStr + "\n";
+                }
+              }
+            });
+
+            read();
+          }).catch(error => {
+            output.textContent += "\n读取流错误：" + error;
+          });
+        }
+        read();
+      }).catch(error => {
+        output.textContent = "请求错误: " + error;
+      });
+    });
+
+    // 处理各个事件
+    function processEvent(eventObj) {
+      // 如果是 mermaid 图形事件，则提取 mermaidCode 渲染图形
+      if (eventObj.type === "mermaid" && eventObj.data && eventObj.data.mermaidCode) {
+        const mermaidCode = eventObj.data.mermaidCode;
+        // 生成唯一的 id 保证 SVG 渲染正确
+        const uniqueId = "mermaid-" + Date.now();
+        mermaid.mermaidAPI.render(uniqueId, mermaidCode, function(svgCode) {
+          document.getElementById("diagram").innerHTML = svgCode;
+        });
+      }
+    }
+  </script>
+</body>
+</html>

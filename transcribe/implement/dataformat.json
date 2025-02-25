@@ -1,0 +1,27 @@
+{
+    "title": "AI-Powered Transcription Service",
+    "TranscribePageContent": {
+        "title": "Transform Your Lectures into Text",
+        "subtitle": "Effortlessly convert audio and video recordings into accurate, searchable text",
+        "features": [
+            {
+                "title": "Real-time Transcription",
+                "description": "Transcribe your voice memos to text in real-time, saving time and boosting productivity. No more manual note-taking!"
+            },
+            {
+                "title": "High-accuracy Transcription",
+                "description": "Get precise transcriptions powered by our advanced AI technology, ensuring your content is captured accurately."
+            },
+            {
+                "title": "Multi-language Support",
+                "description": "Break language barriers with support for multiple languages, making global communication effortless."
+            }
+        ]
+    },
+    "FAQ": [
+        {
+            "question": "string",
+            "answer": "string"
+        }
+    ]
+}

@@ -1,12 +1,15 @@
 import os
+import google.generativeai as genai
 from dotenv import load_dotenv
 import logging
-import google.generativeai as genai
-from google.api_core import retry
+import time
+from pathlib import Path
 from typing import Optional, Dict, Any, List
 import json
 
-    
+# 直接设置环境变量
+os.environ['GOOGLE_API_KEY'] = 'AIzaSyBvDytYfWoJQH5_ellswOSIyOebrQNIIps'
+
 class GeminiClient:
     """Gemini API 客户端封装类
     
@@ -109,15 +112,8 @@ class GeminiClient:
         self._initialize_api()
         
     def _get_api_key(self) -> str:
-        """获取 API 密钥
-        
-        Returns:
-            str: API 密钥
-            
-        Raises:
-            ValueError: 当环境变量中未找到 API 密钥时
-        """
-        api_key = os.getenv('GEMINI_API_KEY')
+        """获取 API key"""
+        api_key = os.getenv('GOOGLE_API_KEY')
         if not api_key:
             raise ValueError("API key not found in environment variables")
         return api_key
@@ -125,7 +121,6 @@ class GeminiClient:
     def _initialize_api(self) -> None:
         """初始化 Gemini API 和模型"""
         try:
-            load_dotenv()
             api_key = self._get_api_key()
             genai.configure(api_key=api_key)
             self.model = genai.GenerativeModel(
@@ -152,31 +147,26 @@ class GeminiClient:
             Exception: 其他可能的错误
         """
         try:
-            model_params = {
-                "model_name": self.model_name,
-                "generation_config": self.generation_config
-            }
+            # 添加3秒延迟，避免触发API限制
+            time.sleep(3)
             
             if system_instruction:
-                model_params["system_instruction"] = system_instruction
+                chat = self.model.start_chat(context=system_instruction)
+                response = chat.send_message(input_text)
+            else:
+                response = self.model.generate_content(input_text)
                 
-            model = genai.GenerativeModel(**model_params)
-            
-            chat_session = model.start_chat(
-                history=[
-                ]
-            )
-            
-            response = chat_session.send_message(input_text)
-            self.logger.info("Successfully generated content")
-            return response.text
-            
+            if response.text:
+                return response.text
+                
         except genai.types.generation_types.BlockedPromptException as e:
             self.logger.error(f"Content generation blocked: {str(e)}")
             raise
         except Exception as e:
             self.logger.error(f"Error during content generation: {str(e)}")
             raise
+        
+        return None
 
     def generate_with_history(self, history: List[Dict[str, Any]], system_instruction: str = None) -> Optional[str]:
         """使用历史对话记录生成内容
@@ -262,5 +252,3 @@ if __name__ == "__main__":
         
     except Exception as e:
         print(f"发生错误：{str(e)}")
-
-

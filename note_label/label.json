@@ -1,0 +1,12 @@
+[
+    {
+    "label-1": "Mathematical Analysis",
+    "label-2": "Functional Equations and Properties of Functions",
+    "question": "Given functions $f(x)$ and $g(x)$ defined on $\\mathbf{R}$ satisfying $f(x-y)=f(x) g(y)-g(x) f(y)$ for all $x, y$, and $f(-2)=f(1) \\neq 0$, determine which of the following statements is correct: A. $f(0)=1$, B. The graph of $g(2x+1)$ is symmetric about the point $(1,0)$, C. $g(1)+g(-1)=0$, D. If $f(1)=1$, then $\\sum_{n=1}^{2023} f(n)=1$."
+    },
+    {
+    "label-1": "Mathematical Analysis",
+    "label-2": "Solving Inequalities Involving Integer and Fractional Parts of a Real Number",
+    "question": "Given $f(x) = [x] \\cdot \\{x\\}$ and $g(x) = \\frac{1}{2}x - 1$, where $[x]$ denotes the greatest integer less than or equal to $x$ and $\\{x\\} = x - [x]$, find the smallest value of $k$ such that the interval length of the solution set of the inequality $f(x) < g(x)$ in the interval $-2 \\leq x \\leq k$ is $\\frac{107}{105}$."
+    }
+]

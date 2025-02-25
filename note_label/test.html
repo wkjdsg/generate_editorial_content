@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>跟随鼠标的卡通头像</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f0f0f0;
+      overflow: hidden;
+    }
+    
+    #avatar-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      cursor: move;
+      transition: all 0.3s ease;
+    }
+    
+    #avatar {
+      width: 100%;
+      height: 100%;
+    }
+
+    #logo-container {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 40px;
+      height: 40px;
+      z-index: 1000;
+    }
+
+    #logo-container svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* i点的动画 */
+    @keyframes dotJump {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    #dot {
+      animation: dotJump 1s ease-in-out infinite;
+      animation-play-state: paused;
+    }
+
+    #logo-container:hover #dot {
+      animation-play-state: running;
+    }
+  </style>
+</head>
+<body>
+  <div id="logo-container">
+    <svg width="166" height="166" viewBox="0 0 166 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- 将原有Logo SVG代码复制到这里，但需要给i的点添加id="dot" -->
+      <!-- 在原SVG中找到表示i点的路径或形状，添加id="dot"属性 -->
+      <g clip-path="url(#clip0_35_383)">
+        <!-- ... 其他SVG路径 ... -->
+        <path id="dot" d="M99.0814 62.2767C99.0814 63.5718 98.8133 64.698 98.2772 65.6552C97.7947 66.6124 97.1245 67.4289 96.2667 68.1046C95.4625 68.7803 94.5243 69.2871 93.4521 69.6249C92.3798 69.9628 91.2807 70.1317 90.1549 70.1317C88.0104 70.1317 86.2143 69.5968 84.7668 68.5269C83.3192 67.4571 82.5955 65.7678 82.5955 63.4592C82.5955 62.2204 82.8367 61.1224 83.3192 60.1652C83.8018 59.1516 84.4451 58.3351 85.2493 57.7158C86.1071 57.0401 87.0721 56.5333 88.1444 56.1954C89.2703 55.8576 90.4229 55.6887 91.6024 55.6887C93.6933 55.6887 95.4625 56.2236 96.9101 57.2934C98.3576 58.3633 99.0814 60.0244 99.0814 62.2767Z" fill="url(#paint1_linear_35_383)"/>
+        <!-- ... 其他SVG路径 ... -->
+      </g>
+      <!-- ... 其他SVG定义 ... -->
+    </svg>
+  </div>
+
+  <div id="avatar-container">
+    <svg id="avatar" width="149" height="138" viewBox="0 0 149 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="14.6117" cy="14.6118" rx="14.6117" ry="14.6118" transform="matrix(-0.996245 -0.0865742 -0.0865455 0.996248 119.996 22.7822)" fill="#4E4DF4"/>
+      <ellipse cx="38.2793" cy="37.8236" rx="38.2793" ry="37.8236" transform="matrix(-0.837619 0.546255 0.546255 0.837619 75.3164 19.3419)" fill="#162034"/>
+      <ellipse cx="6.247" cy="6.14561" rx="6.247" ry="6.14561" transform="matrix(-0.835873 -0.499572 0.521126 -0.881077 103.356 49.9952)" fill="#4E4DF4"/>
+      <rect width="3.74443" height="20.2919" transform="matrix(-0.462294 -0.845656 -0.89932 0.51494 103.069 42.91)" fill="#4E4DF4"/>
+      <ellipse cx="32.6479" cy="34.0255" rx="32.6479" ry="34.0255" transform="matrix(-0.999079 0.0172586 -0.000628232 0.999178 99.5337 40.6351)" fill="#4E4DF4"/>
+      <path d="M75.3713 91.9137C74.7558 92.1077 74.1207 91.7759 73.9528 91.1726C73.7849 90.5693 74.1477 89.9229 74.7632 89.7289L75.3713 91.9137ZM74.7632 89.7289C78.3725 88.5912 80.6829 83.7101 79.2015 78.3874L81.4304 77.6848C83.0947 83.665 80.7053 90.2322 75.3713 91.9137L74.7632 89.7289Z" fill="#2C2C86"/>
+      <ellipse cx="14.0713" cy="14.2133" rx="14.0713" ry="14.2133" transform="matrix(-0.851826 0.571258 0.520034 0.824004 76.0332 45.7204)" fill="#C5C0FF"/>
+      <ellipse cx="11.257" cy="11.3706" rx="11.257" ry="11.3706" transform="matrix(-0.851826 0.571258 0.520034 0.824004 54.7314 49.4627)" fill="#C5C0FF"/>
+      <path d="M60.4454 112.114C38.235 110.184 21.7942 90.6141 23.7237 68.4036C25.6531 46.1932 45.2222 29.7526 67.4326 31.6827C89.6429 33.6128 106.084 53.1826 104.154 75.3931C102.225 97.6035 82.6557 114.044 60.4454 112.114Z" stroke="white" stroke-width="7.67584"/>
+      <ellipse id="leftEye" cx="47.5899" cy="67.9311" rx="3.83792" ry="4.22171" fill="black"/>
+      <ellipse id="rightEye" cx="65.2442" cy="67.9311" rx="3.83792" ry="4.22171" fill="black"/>
+    </svg>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const avatarContainer = document.getElementById('avatar-container');
+      const avatar = document.getElementById('avatar');
+      const leftEye = document.getElementById('leftEye');
+      const rightEye = document.getElementById('rightEye');
+      
+      // 眼睛可移动的最大半径
+      const maxEyeMove = 3;
+      
+      // 获取眼睛的初始位置
+      const leftEyeInitial = { x: 47.5899, y: 67.9311 };
+      const rightEyeInitial = { x: 65.2442, y: 67.9311 };
+      
+      // 拖动相关变量
+      let isDragging = false;
+      let offsetX, offsetY;
+      
+      // 处理拖动开始
+      avatarContainer.addEventListener('mousedown', function(e) {
+        isDragging = true;
+        offsetX = e.clientX - avatarContainer.getBoundingClientRect().left;
+        offsetY = e.clientY - avatarContainer.getBoundingClientRect().top;
+        avatarContainer.style.transition = 'none'; // 拖动时禁用过渡效果
+      });
+      
+      // 处理拖动过程
+      document.addEventListener('mousemove', function(e) {
+        // 处理眼睛跟随
+        const avatarRect = avatar.getBoundingClientRect();
+        const mouseX = e.clientX - avatarRect.left;
+        const mouseY = e.clientY - avatarRect.top;
+        
+        // 计算左眼的新位置
+        const leftDx = mouseX - leftEyeInitial.x;
+        const leftDy = mouseY - leftEyeInitial.y;
+        const leftDistance = Math.sqrt(leftDx * leftDx + leftDy * leftDy);
+        const leftRatio = leftDistance === 0 ? 0 : Math.min(maxEyeMove / leftDistance, 1);
+        
+        // 计算右眼的新位置
+        const rightDx = mouseX - rightEyeInitial.x;
+        const rightDy = mouseY - rightEyeInitial.y;
+        const rightDistance = Math.sqrt(rightDx * rightDx + rightDy * rightDy);
+        const rightRatio = rightDistance === 0 ? 0 : Math.min(maxEyeMove / rightDistance, 1);
+        
+        // 更新眼睛位置
+        leftEye.setAttribute('cx', leftEyeInitial.x + leftDx * leftRatio);
+        leftEye.setAttribute('cy', leftEyeInitial.y + leftDy * leftRatio);
+        
+        rightEye.setAttribute('cx', rightEyeInitial.x + rightDx * rightRatio);
+        rightEye.setAttribute('cy', rightEyeInitial.y + rightDy * rightRatio);
+        
+        // 处理拖动
+        if (isDragging) {
+          const newLeft = e.clientX - offsetX;
+          const newTop = e.clientY - offsetY;
+          
+          // 确保头像不会超出屏幕
+          const maxX = window.innerWidth - avatarContainer.offsetWidth;
+          const maxY = window.innerHeight - avatarContainer.offsetHeight;
+          
+          avatarContainer.style.left = Math.max(0, Math.min(newLeft, maxX)) + 'px';
+          avatarContainer.style.top = Math.max(0, Math.min(newTop, maxY)) + 'px';
+          
+          // 拖动时移除原来的定位
+          avatarContainer.style.right = 'auto';
+          avatarContainer.style.bottom = 'auto';
+        }
+      });
+      
+      // 处理拖动结束
+      document.addEventListener('mouseup', function() {
+        if (isDragging) {
+          isDragging = false;
+          avatarContainer.style.transition = 'all 0.3s ease'; // 恢复过渡效果
+          
+          // 计算到各边的距离
+          const rect = avatarContainer.getBoundingClientRect();
+          const distToLeft = rect.left;
+          const distToRight = window.innerWidth - rect.right;
+          const distToTop = rect.top;
+          const distToBottom = window.innerHeight - rect.bottom;
+          
+          // 找出最近的边
+          const minDist = Math.min(distToLeft, distToRight, distToTop, distToBottom);
+          
+          // 重置所有位置属性
+          avatarContainer.style.left = 'auto';
+          avatarContainer.style.right = 'auto';
+          avatarContainer.style.top = 'auto';
+          avatarContainer.style.bottom = 'auto';
+          
+          // 设置到最近的边
+          if (minDist === distToLeft) {
+            avatarContainer.style.left = '20px';
+            avatarContainer.style.top = rect.top + 'px';
+          } else if (minDist === distToRight) {
+            avatarContainer.style.right = '20px';
+            avatarContainer.style.top = rect.top + 'px';
+          } else if (minDist === distToTop) {
+            avatarContainer.style.top = '20px';
+            avatarContainer.style.left = rect.left + 'px';
+          } else {
+            avatarContainer.style.bottom = '20px';
+            avatarContainer.style.left = rect.left + 'px';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
